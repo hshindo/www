@@ -1,0 +1,3 @@
+baseURL = "https://www.hshindo.com/"
+languageCode = "en-us" # for RSS generation
+title = "Hiroyuki Shindo"

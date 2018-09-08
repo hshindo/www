@@ -1,0 +1,9 @@
+[submodule "themes/academic"]
+	path = themes/academic
+	url = https://github.com/gcushen/hugo-academic.git
+[submodule "themes/material-blog"]
+	path = themes/material-blog
+	url = https://github.com/Xzya/hugo-material-blog.git
+[submodule "themes/mdl"]
+	path = themes/mdl
+	url = https://github.com/jchatkinson/HugoMDL.git

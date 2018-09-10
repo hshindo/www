@@ -4,8 +4,8 @@
   <h1>GIF、名前、所属、研究内容、略歴などをここに挿入</h1>
 
   <h2>News</h2>
-  {{ $news := where .Pages.ByDate "Section" "news"}}
-  {{ range first 10 $news }}
+  {{ $news := (where .Pages.ByDate "Section" "news").Reverse }}
+  {{ range first 3 $news }} <!-- TODO: adjust the number of contents-->
     <h3>{{ .Title }}</h3>
     <p>{{ .Date }}</p>
     <p>{{ .Content }}</p>

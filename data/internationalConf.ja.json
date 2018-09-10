@@ -1,0 +1,313 @@
+[
+  {
+    "title": "A Span Selection Model for Semantic Role Labeling",
+    "authors": ["Hiroki Ouchi", "Hiroyuki Shindo", "Yuji Matsumoto"],
+    "conference": "In Proceedings of EMNLP"
+  },
+  {
+    "title": "Cooperating Tools for MWE Lexicon Management and Corpus Annotation",
+    "authors": [
+      "Yuji Matsumoto",
+      "Akihiko Kato",
+      "Hiroyuki Shindo",
+      "Toshio Morita"
+    ],
+    "conference": "In Proceedings of Joint Workshop on Linguistic Annotation, Multiword Expressions and Constructions (LAW-MWE-CxG)"
+  },
+  {
+    "title": "Representation Learning of Entities and Documents from Knowledge Base Descriptions",
+    "authors": ["Ikuya Yamada", "Hiroyuki Shindo"],
+    "conference": "In Proceedings of COLING"
+  },
+  {
+    "title": "Sentence Suggestion of Japanese Functional Expressions for Chinese-speaking Learners",
+    "authors": ["Jun Liu", "Hiroyuki Shindo", "Yuji Matsumoto"],
+    "conference": "In Proceedings of ACL (demo)"
+  },
+  {
+    "title": "Interpretable Adversarial Perturbation in Input Embedding Space for Text",
+    "authors": [
+      "Motoki Sato",
+      "Jun Suzuki",
+      "Hiroyuki Shindo",
+      "Yuji Matsumoto"
+    ],
+    "conference": "In Proceedings of IJCAI"
+  },
+  {
+    "title": "Chemical Compounds Knowledge Visualization with Natural Language Processing and Linked Data",
+    "authors": [
+      "Kazunari Tanaka",
+      "Tomoya Iwakura",
+      "Yusuke Koyanagi",
+      "Noriko Ikeda",
+      "Hiroyuki Shindo",
+      "Yuji Matsumoto"
+    ],
+    "conference": "In Proceedings of LREC (Industry Track)"
+  },
+  {
+    "title": "PDFAnno: a Web-based Linguistic Annotation Tool for PDF Documents",
+    "authors": ["Hiroyuki Shindo", "Yuji Matsumoto"],
+    "conference": "In Proceedings of LREC"
+  },
+  {
+    "title": "Construction of Large-scale English Verbal Multiword Expression Annotated Corpus",
+    "authors": ["Akihiko Kato", "Hiroyuki Shindo", "Yuji Matsumoto"],
+    "conference": "In Proceedings of LREC"
+  },
+  {
+    "title": "Studio Ousia's Quiz Bowl Question Answering System at NIPS HCQA 2017",
+    "authors": [
+      "Ikuya Yamada",
+      "Ryuji Tamaki",
+      "Hiroyuki Shindo",
+      "Yoshiyasu Takefuji"
+    ],
+    "conference": "NIPS 2017 Competition Track",
+    "slides": "/data/qb2.pdf",
+    "video": "https://www.youtube.com/watch?v=Yq5NMcPc9hM"
+  },
+  {
+    "title": "Coordination Boundary Identification with Similarity and Replaceability",
+    "authors": ["Hiroki Teranishi", "Hiroyuki Shindo", "Yuji Matsumoto"],
+    "conference": "In Proceedings of IJCNLP"
+  },
+  {
+    "title": "Segment-Level Neural Conditional Random Fields for Named Entity Recognition",
+    "authors": ["Motoki Sato", "Hiroyuki Shindo", "Yuji Matsumoto"],
+    "conference": "In Proceedings of IJCNLP"
+  },
+  {
+    "title": "Improving Named Entity Recognition in Tasks with Non-immediate Response Setting",
+    "authors": [
+      "Atsuki Sawayama",
+      "Jun Suzuki",
+      "Hiroyuki Shindo",
+      "Yuji Matsumoto"
+    ],
+    "conference": "In Proceedings of SCIDOCA"
+  },
+  {
+    "title": "Joint Prediction of Morphosyntactic Categories for Fine-Grained Arabic Part-of-Speech Tagging Exploiting Tag Dictionary Information",
+    "authors": ["Go Inoue", "Hiroyuki Shindo", "Yuji Matsumoto"],
+    "conference": "In Proceedings of CoNLL"
+  },
+  {
+    "title": "Neural Modeling of Multi-Predicate Interactions for Japanese Predicate Argument Structure Analysis",
+    "authors": ["Hiroki Ouchi", "Hiroyuki Shindo", "Yuji Matsumoto"],
+    "conference": "In Proceedings of ACL"
+  },
+  {
+    "title": "English Multiword Expression-aware Dependency Parsing including Named Entities",
+    "authors": ["Akihiko Kato", "Hiroyuki Shindo", "Yuji Matsumoto"],
+    "conference": "In Proceedings of ACL"
+  },
+  {
+    "title": "Legal Question Answering System using Neural Attention",
+    "authors": [
+      "Ayaka Morimoto",
+      "Daiki Kubo",
+      "Motoki Sato",
+      "Hiroyuki Shindo",
+      "Yuji Matsumoto"
+    ],
+    "conference": "In Proceedings of COLIEE"
+  },
+  {
+    "title": "Learning to Rank for Coordination Detection",
+    "authors": [
+      "Wang Xun",
+      "Li Rumeng",
+      "Hiroyuki Shindo",
+      "Katsuhito Sudoh",
+      "Masaaki Nagata"
+    ],
+    "conference": "In Proceedings of CICLing"
+  },
+  {
+    "title": "Ensemble of Neural Classifiers for Scoring Knowledge Base Triples",
+    "authors": ["Ikuya Yamada", "Motoki Sato", "Hiroyuki Shindo"],
+    "conference": "In Proceedings of WSDM Workshop for WSDM Cup 2017: Vandalism Detection and Triple Scoring"
+  },
+  {
+    "title": "Identification of Flexible Multiword Expressions with the Help of Dependency Structure Annotation",
+    "authors": [
+      "Ayaka Morimoto",
+      "Akifumi Yoshimoto",
+      "Akihiko Kato",
+      "Hiroyuki Shindo",
+      "Yuji Matsumoto"
+    ],
+    "conference": "In Proceedings of COLING 2016 Workshop: Grammar and Lexicon: Interactions and Interfaces"
+  },
+  {
+    "title": "Toward Coreference Resolution in Scientific Domain",
+    "authors": [
+      "Aya Iwamoto",
+      "Hiroshi Noji",
+      "Hiroyuki Shindo",
+      "Yuji Matsumoto"
+    ],
+    "conference": "In Proceedings of First International Workshop on SCIentific DOCument Analysis (SCIDOCA)"
+  },
+  {
+    "title": "Information structure analysis of abstracts in multiple domains using word embeddings",
+    "authors": ["Mai Omura", "Hiroyuki Shindo", "Yuji Matsumoto"],
+    "conference": "In Proceedings of First International Workshop on SCIentific DOCument Analysis (SCIDOCA)"
+  },
+  {
+    "title": "Japanese Text Normalization with Encoder-Decoder Model",
+    "authors": ["Taishi Ikeda", "Hiroyuki Shindo", "Yuji Matsumoto"],
+    "conference": "In Proceedings of the 2nd Workshop on Noisy User-generated Text (W-NUT)"
+  },
+  {
+    "title": "Joint Transition-based Dependency Parsing and Disfluency Detection for Automatic Speech Recognition Texts",
+    "authors": ["Masashi Yoshikawa", "Hiroyuki Shindo", "Yuji Matsumoto"],
+    "conference": "In Proceedings of EMNLP",
+    "conferenceLink": "http://www.emnlp2016.net/"
+  },
+  {
+    "title": "Multiple Emotions Detection in Conversation Transcripts",
+    "authors": ["Duc Anh Phan", "Hiroyuki Shindo", "Yuji Matsumoto"],
+    "conference": "In Proceedings of PACLIC",
+    "conferenceLink": "http://paclic30.khu.ac.kr/"
+  },
+  {
+    "title": "Joint Learning of the Embedding of Words and Entities for Named Entity Disambiguation",
+    "authors": [
+      "Ikuya Yamada",
+      "Hiroyuki Shindo",
+      "Hideaki Takeda",
+      "Yoshiyasu Takefuji"
+    ],
+    "conference": "In Proceedings of CoNLL",
+    "conferenceLink": "http://www.conll.org/"
+  },
+  {
+    "title": "Similarity Matrix Model for the NTCIR-12 MedNLPDoc Task",
+    "authors": [
+      "Yuichiro Sawai",
+      "Mai Omura",
+      "Hiroki Ouchi",
+      "Yuki Nagai",
+      "Masashi Yoshikawa",
+      "Ikuya Yamada",
+      "Hiroyuki Shindo"
+    ],
+    "conference": "In Proceedings of NTCIR",
+    "conferenceLink": "http://research.nii.ac.jp/ntcir/ntcir-12/"
+  },
+  {
+    "title": "Exploiting Syntactic Similarities for Preposition Error Corrections on Indonesian Sentences Written by Second Language Learner",
+    "authors": ["Budi Irmawati", "Hiroyuki Shindo", "Yuji Matsumoto"],
+    "conference": "In Proceedings of 5th Workshop on Spoken Language Technology for Under-resourced Language (SLTU)",
+    "conferenceLink": "http://mica.edu.vn/sltu2016/"
+  },
+  {
+    "title": "Construction of an English Dependency Corpus incorporating Compound Function Words",
+    "authors": ["Akihiko Kato", "Hiroyuki Shindo", "Yuji Matsumoto"],
+    "conference": "In Proceedings of LREC",
+    "conferenceLink": "http://lrec2016.lrec-conf.org/"
+  },
+  {
+    "title": "An Improved Hierarchical Word Sequence Language Model Using Word Association",
+    "authors": ["Xiaoyi Wu", "Yuji Matsumoto", "Kevin Duh", "Hiroyuki Shindo"],
+    "conference": "In Proceedings of SLSP",
+    "conferenceLink": "http://grammars.grlmc.com/slsp2015/"
+  },
+  {
+    "title": "An Efficient Annotation for Phrasal Verbs using Dependency Information",
+    "authors": ["Masayuki Komai", "Hiroyuki Shindo", "Yuji Matsumoto"],
+    "conference": "In Proceedings of PACLIC",
+    "conferenceLink": "http://bcmi.sjtu.edu.cn/~paclic29/"
+  },
+  {
+    "title": "A Latent Variable Model for Joint Pause Prediction and Dependency Parsing",
+    "authors": [
+      "The Tung Nguyen",
+      "Graham Neubig",
+      "Hiroyuki Shindo",
+      "Sakriani Sakti",
+      "Tomoki Toda",
+      "Satoshi Nakamura"
+    ],
+    "conference": "In Proceedings of Interspeech",
+    "conferenceLink": "http://interspeech2015.org/"
+  },
+  {
+    "title": "Semantic Structure Analysis of Noun Phrases using Abstract Meaning Representation",
+    "authors": ["Yuichiro Sawai", "Hiroyuki Shindo", "Yuji Matsumoto"],
+    "conference": "In Proceedings of ACL",
+    "conferenceLink": "http://acl2015.org/",
+    "pdf": "http://www.anthology.aclweb.org/P/P15/P15-2140.pdf",
+    "bibtex": "http://www.anthology.aclweb.org/P/P15/P15-2140.bib"
+  },
+  {
+    "title": "Joint Case Argument Identification for Japanese Predicate Argument Structure Analysis",
+    "authors": [
+      "Hiroki Ouchi",
+      "Hiroyuki Shindo",
+      "Kevin Duh",
+      "Yuji Matsumoto"
+    ],
+    "conference": "In Proceedings of ACL",
+    "conferenceLink": "http://acl2015.org/",
+    "pdf": "http://www.anthology.aclweb.org/P/P15/P15-1093.pdf",
+    "bibtex": "http://www.anthology.aclweb.org/P/P15/P15-1093.bib"
+  },
+  {
+    "title": "Document Classification based on Distributed Document Representation",
+    "authors": ["Rumeng Li", "Hiroyuki Shindo"],
+    "conference": "In Proceedings of PAKDD",
+    "conferenceLink": "http://www.pakdd2015.jvn.edu.vn/"
+  },
+  {
+    "title": "A Hierarchical Tree Model for Update Summarization",
+    "authors": ["Rumeng Li", "Hiroyuki Shindo"],
+    "conference": "In Proceedings of ECIR",
+    "conferenceLink": "http://ecir2015.ifs.tuwien.ac.at/"
+  },
+  {
+    "title": "Statistical Parsing with Symbol-Refined Tree Substitution Grammars",
+    "authors": [
+      "Hiroyuki Shindo",
+      "Yusuke Miyao",
+      "Akinori Fujino",
+      "Masaaki Nagata"
+    ],
+    "conference": "In Proceedings of IJCAI",
+    "conferenceLink": "http://ijcai13.org/"
+  },
+  {
+    "title": "Bayesian Symbol-Refined Tree Substitution Grammars for Syntactic Parsing",
+    "authors": [
+      "Hiroyuki Shindo",
+      "Yusuke Miyao",
+      "Akinori Fujino",
+      "Masaaki Nagata"
+    ],
+    "conference": "In Proceedings of ACL",
+    "conferenceLink": "http://www.acl2012.org/",
+    "slides": "/data/shindo-ACL2012-talk.pdf",
+    "pdf": "http://www.aclweb.org/anthology/P/P12/P12-1046.pdf",
+    "bibtex": "http://www.aclweb.org/anthology/P/P12/P12-1046.bib"
+  },
+  {
+    "title": "Insertion Operator for Bayesian Tree Substitution Grammars",
+    "authors": ["Hiroyuki Shindo", "Akinori Fujino", "Masaaki Nagata"],
+    "conference": "In Proceedings of ACL",
+    "conferenceLink": "http://www.acl2011.org/",
+    "slides": "/data/shindo-ACL2011-talk.pdf",
+    "pdf": "http://aclweb.org/anthology/P/P11/P11-2036.pdf",
+    "bibtex": "http://aclweb.org/anthology/P/P11/P11-2036.bib"
+  },
+  {
+    "title": "Word Alignment with Synonym Regularization",
+    "authors": ["Hiroyuki Shindo", "Akinori Fujino", "Masaaki Nagata"],
+    "conference": "In Proceedings of ACL",
+    "conferenceLink": "http://acl2010.org/",
+    "pdf": "http://www.aclweb.org/anthology/P/P10/P10-2025.pdf",
+    "bibtex": "http://www.aclweb.org/anthology/P/P10/P10-2025.bib"
+  }
+]

@@ -6,12 +6,11 @@
   <h2>News</h2>
   {{ $news := (where .Pages.ByDate "Section" "news").Reverse }}
   {{ range first 3 $news }} <!-- TODO: adjust the number of contents-->
-    <h3>{{ .Title }}</h3>
+    <a href="{{ .URL | relLangURL }}"><h3>{{ .Title }}</h3></a>
     <p>{{ .Date }}</p>
-    <p>{{ .Content }}</p>
+    <p>{{ .Params.Summary }}</p>
   {{ end }}
 
   <a href="{{ `/news/` | relLangURL }}">{{ i18n "past_news"}}</a>
-
 
 {{ end }}

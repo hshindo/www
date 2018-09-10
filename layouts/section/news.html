@@ -3,9 +3,11 @@
 
   <h1>{{ i18n "news" }}</h1>
 
-  {{ range .Pages.ByDate }}
+  {{ range (.Paginator 5).Pages.ByDate.Reverse }} <!-- TODO: adjust the number of contents -->
     <h2>{{ .Title }}</h2><br />
     {{ .Date }}<br />
     {{ .Summary }}<br />
   {{ end }}
+
+  {{ template "_internal/pagination.html" . }}
 {{ end }}

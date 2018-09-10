@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <!-- layout for `/news/` -->
+
+  <h1>{{ i18n "news" }}</h1>
+
+  {{ range .Pages.ByDate }}
+    <h2>{{ .Title }}</h2><br />
+    {{ .Date }}<br />
+    {{ .Summary }}<br />
+  {{ end }}
+{{ end }}

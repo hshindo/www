@@ -1,59 +1,27 @@
+type Publication = {
+  title: string;
+  authors: string[];
+  journal: string;
+  date: string; // '2018' or '2018-09' or '2018-09-10'
+  notes: string[];
+  links: {
+    detail?: string; // 論文詳細へのリンク、講演会詳細へのリンク、学会HPへのリンク
+    slides?: string;
+    video?: string;
+    pdf?: string;
+    bibtex?: string;
+  };
+};
+
 type Award = {
-  awardName: string;
-  title?: string;
-  organization: string;
-  year: string;
-  slides?: string;
-  video?: string;
-  github?: string;
-};
-
-type AwardStudents = {
-  awardName: string;
-  title: string;
-  students: string[];
-  year: string;
-};
-
-type Book = {
-  title: string;
-  authors: string[];
-  TODO_what_is_this: string;
-};
-
-type ConferenceDomestic = {
-  title: string;
-  authors: string[];
-  conference: string;
-  conferenceUrl?: string;
-  year: string;
-  award?: string;
-};
-
-type ConferenceInternational = {
+  name: string;
   title: string;
   authors: string;
-  conference: string;
-  conferenceUrl?: string;
-  year: string;
-  award?: string;
-  slides?: string;
-  video?: string;
-  pdf?: string;
-  bibtex?: string;
-};
-
-type Other = {
-  title: string;
-  at: string;
-  atUrl?: string;
-  yearOrDate: string;
-  slides?: string;
-};
-
-type Paper = {
-  title: string;
-  authors: string[];
-  press: string;
-  url?: string;
+  journal: string;
+  date: string;
+  links: {
+    slides?: string;
+    video?: string;
+    pdf?: string;
+  };
 };

@@ -72,7 +72,7 @@
       "Masato Inoue"
     ],
     "press": "Journal of Physics: Conference Series, 233, 012022, 2010",
-    "link": "http://iopscience.iop.org/1742-6596/233/1/012022/"
+    "url": "http://iopscience.iop.org/1742-6596/233/1/012022/"
   },
   {
     "title": "Grouping preprocess for haplotype inference from SNP and CNV data",
@@ -84,7 +84,7 @@
       "Masato Inoue"
     ],
     "press": "Journal of Physics: Conference Series, 197, 012009, 2009",
-    "link": "http://iopscience.iop.org/1742-6596/197/1/012009/"
+    "url": "http://iopscience.iop.org/1742-6596/197/1/012009/"
   },
   {
     "title": "Grouping preprocess to accurately extend application of EM algorithm to haplotype inference",
@@ -96,6 +96,6 @@
       "Masato Inoue"
     ],
     "press": "Journal of Human Genetics, 53(8), 747-756, 2008",
-    "link": "http://www.springerlink.com/content/qw1308876201l4g1/?p=8b1c921a6de24defbc0d8aa7c42297f3&pi=8"
+    "url": "http://www.springerlink.com/content/qw1308876201l4g1/?p=8b1c921a6de24defbc0d8aa7c42297f3&pi=8"
   }
 ]

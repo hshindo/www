@@ -1,11 +1,10 @@
-type Associations = {
-  title: string;
-  authors: string[];
-  at: string;
-  atUrl?: string;
-  year: string;
-  award?: string;
-};
+// Award                    => 受賞
+// AwardStudents            => 指導学生の受賞
+// Book                     => Books
+// ConferenceDomestic       => 研究会、全国大会
+// ConferenceInternational  => 国際会議
+// Other                    => 招待講演・その他
+// Paper                    => 論文誌
 
 type Award = {
   awardName: string;
@@ -24,24 +23,35 @@ type AwardStudents = {
   year: string;
 };
 
-type Books = {
+type Book = {
   title: string;
   authors: string[];
   TODO_what_is_this: string;
 };
 
-type InternationalConf = {
+type ConferenceDomestic = {
+  title: string;
+  authors: string[];
+  conference: string;
+  conferenceUrl?: string;
+  year: string;
+  award?: string;
+};
+
+type ConferenceInternational = {
   title: string;
   authors: string;
   conference: string;
-  conferenceLink?: string;
+  conferenceUrl?: string;
+  year: string;
+  award?: string;
   slides?: string;
   video?: string;
   pdf?: string;
   bibtex?: string;
 };
 
-type Others = {
+type Other = {
   title: string;
   at: string;
   atUrl?: string;
@@ -53,5 +63,5 @@ type Paper = {
   title: string;
   authors: string[];
   press: string;
-  link?: string;
+  url?: string;
 };

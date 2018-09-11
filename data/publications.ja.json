@@ -1083,7 +1083,7 @@
       "title": "ディープラーニングによる自然言語処理と医療分野への応用",
       "authors": ["進藤 裕之"],
       "journal": "言語処理学会第24回第44回 核医学特別セミナー, 北海道大学",
-      "date": "2018/04/18",
+      "date": "2018-04-18",
       "notes": [],
       "links": {}
     },
@@ -1091,7 +1091,7 @@
       "title": "若手大学教員の仕事",
       "authors": ["進藤 裕之"],
       "journal": "言語処理学会第24回年次大会(NLP2018) 若手チュートリアル, 岡山コンベンションセンター",
-      "date": "2018/03/12",
+      "date": "2018-03-12",
       "notes": [],
       "links": {}
     },
@@ -1099,7 +1099,7 @@
       "title": "科学技術論文の自動理解に基づく知識獲得",
       "authors": ["進藤 裕之"],
       "journal": "映像情報メディア学会冬季大会, 早稲田大学",
-      "date": "2017/12/13",
+      "date": "2017-12-13",
       "notes": [],
       "links": {}
     },
@@ -1107,7 +1107,7 @@
       "title": "科学技術論文の構造解析に基づく知識獲得",
       "authors": ["進藤 裕之"],
       "journal": "富士通研究所",
-      "date": "2017/11/21",
+      "date": "2017-11-21",
       "notes": [],
       "links": {}
     },
@@ -1115,7 +1115,7 @@
       "title": "自然言語処理の最前線",
       "authors": ["進藤 裕之"],
       "journal": "ステアラボ人工知能シンポジウム2017, AP秋葉原",
-      "date": "2017/03/12",
+      "date": "2017-03-12",
       "notes": [],
       "links": {}
     },
@@ -1123,7 +1123,7 @@
       "title": "JukaiNLP.jl: Julia言語による自然言語解析ライブラリ",
       "authors": ["進藤 裕之"],
       "journal": "Julia Tokyo #6",
-      "date": "2016/09/03",
+      "date": "2016-09-03",
       "notes": [],
       "links": {}
     },
@@ -1131,7 +1131,7 @@
       "title": "自然言語処理における深層学習の省メモリ化・高速化",
       "authors": ["進藤 裕之"],
       "journal": "情報処理学会 自然言語処理研究会 (NL), 岡山県立大学",
-      "date": "2016/07/30",
+      "date": "2016-07-30",
       "notes": [],
       "links": {}
     },
@@ -1139,7 +1139,7 @@
       "title": "深層学習に基づく自然言語処理の研究動向",
       "authors": ["進藤 裕之"],
       "journal": "第1回ステアラボ人工知能セミナー, 千葉工業大学東京スカイツリータウン（R）キャンパス",
-      "date": "2016/04/28",
+      "date": "2016-04-28",
       "notes": [],
       "links": {}
     },
@@ -1147,7 +1147,7 @@
       "title": "Deep Learning の研究事例紹介（自然言語処理分野）",
       "authors": ["進藤 裕之"],
       "journal": "音響学会 談話会, 京都大学",
-      "date": "2016/03/28",
+      "date": "2016-03-28",
       "notes": [],
       "links": {}
     },
@@ -1155,7 +1155,7 @@
       "title": "Neural POS-Tagging with Julia Language",
       "authors": ["進藤 裕之"],
       "journal": "Julia Tokyo #5",
-      "date": "2015/12/19",
+      "date": "2015-12-19",
       "notes": [],
       "links": {}
     },
@@ -1163,7 +1163,7 @@
       "title": "Deep Learning for Natural Language Processing",
       "authors": ["進藤 裕之"],
       "journal": "脳情報通信融合研究センター（CiNet）",
-      "date": "2015/12/11",
+      "date": "2015-12-11",
       "notes": [],
       "links": {}
     },
@@ -1171,7 +1171,7 @@
       "title": "Concept Dependency for Syntactic and Semantic Annotations of Natural Language Texts",
       "authors": ["進藤 裕之"],
       "journal": "国立情報学研究所",
-      "date": "2015/04/30",
+      "date": "2015-04-30",
       "notes": [],
       "links": {}
     },

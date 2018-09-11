@@ -3,15 +3,15 @@
     {
       "title": "語系列の類似性・可換性の特徴表現による並列句の範囲同定",
       "authors": ["寺西 裕紀", "進藤 裕之", "松本 裕治"],
-      "journal": "自然言語処理, Vol.25 No.4, September 2018 (to appear)",
-      "date": "2018",
+      "journal": "自然言語処理, Vol.25 No.4",
+      "date": "2018-09",
       "notes": [],
       "links": {}
     },
     {
       "title": "Generating Artificial Error Data for Indonesian Preposition Error Corrections",
       "authors": ["Budi Irmawati", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "International Journal of Technology, 2017",
+      "journal": "International Journal of Technology",
       "date": "2017",
       "notes": [],
       "links": {}
@@ -24,7 +24,7 @@
         "Hideaki Takeda",
         "Yoshiyasu Takefuji"
       ],
-      "journal": "Transactions of the Association for Computational Linguistics (TACL), 2017",
+      "journal": "Transactions of the Association for Computational Linguistics (TACL)",
       "date": "2017",
       "notes": [],
       "links": {}
@@ -37,7 +37,7 @@
         "Hiroyuki Shindo",
         "Yuji Matsumoto"
       ],
-      "journal": "IEEE Transactions on Audio, Speech and Language Processing, 2016",
+      "journal": "IEEE Transactions on Audio, Speech and Language Processing",
       "date": "2016",
       "notes": [],
       "links": {}
@@ -45,7 +45,7 @@
     {
       "title": "統計的文法獲得モデルのための擬似部分木ブロック化サンプリング法",
       "authors": ["進藤 裕之", "松本 裕治", "永田 昌明"],
-      "journal": "情報処理学会論文誌:数理モデル化と応用(TOM), 2014",
+      "journal": "情報処理学会論文誌:数理モデル化と応用(TOM)",
       "date": "2014",
       "notes": [],
       "links": {}
@@ -59,7 +59,7 @@
         "Akinori Fujino",
         "Masaaki Nagata"
       ],
-      "journal": "IPSJ Transactions on Databases (TOD), 2012",
+      "journal": "IPSJ Transactions on Databases (TOD)",
       "date": "2012",
       "notes": [],
       "links": {}
@@ -67,7 +67,7 @@
     {
       "title": "Pitman-Yor過程に基づく確率的木挿入文法モデル",
       "authors": ["進藤 裕之", "藤野 昭典", "永田 昌明"],
-      "journal": "情報処理学会論文誌:数理モデル化と応用(TOM), 2012",
+      "journal": "情報処理学会論文誌:数理モデル化と応用(TOM)",
       "date": "2012",
       "notes": [],
       "links": {}
@@ -75,7 +75,7 @@
     {
       "title": "同義語情報を用いた確率的単語アライメントモデル",
       "authors": ["進藤 裕之", "藤野 昭典", "永田 昌明"],
-      "journal": "情報処理学会論文誌:数理モデル化と応用(TOM), 2011",
+      "journal": "情報処理学会論文誌:数理モデル化と応用(TOM)",
       "date": "2011",
       "notes": [],
       "links": {}
@@ -89,7 +89,7 @@
         "平 博順",
         "進藤 裕之"
       ],
-      "journal": "自然言語処理, 2011",
+      "journal": "自然言語処理",
       "date": "2011",
       "notes": [],
       "links": {}
@@ -103,7 +103,7 @@
         "Hiroyuki Shindo",
         "Masato Inoue"
       ],
-      "journal": "Journal of Physics: Conference Series, 233, 012022, 2010",
+      "journal": "Journal of Physics: Conference Series, 233, 012022",
       "date": "2010",
       "notes": [],
       "links": { "detail": "http://iopscience.iop.org/1742-6596/233/1/012022/" }
@@ -117,7 +117,7 @@
         "Naoyuki Kamatani",
         "Masato Inoue"
       ],
-      "journal": "Journal of Physics: Conference Series, 197, 012009, 2009",
+      "journal": "Journal of Physics: Conference Series, 197, 012009",
       "date": "2009",
       "notes": [],
       "links": { "detail": "http://iopscience.iop.org/1742-6596/197/1/012009/" }
@@ -131,7 +131,7 @@
         "Naoyuki Kamatani",
         "Masato Inoue"
       ],
-      "journal": "Journal of Human Genetics, 53(8), 747-756, 2008",
+      "journal": "Journal of Human Genetics, 53(8), 747-756",
       "date": "2008",
       "notes": [],
       "links": {

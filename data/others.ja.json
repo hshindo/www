@@ -1,0 +1,78 @@
+[
+  {
+    "title": "ディープラーニングによる自然言語処理と医療分野への応用",
+    "at": "言語処理学会第24回第44回 核医学特別セミナー, 北海道大学",
+    "yearOrDate": "2018/04/18"
+  },
+  {
+    "title": "若手大学教員の仕事",
+    "at": "言語処理学会第24回年次大会(NLP2018) 若手チュートリアル, 岡山コンベンションセンター",
+    "yearOrDate": "2018/03/12"
+  },
+  {
+    "title": "科学技術論文の自動理解に基づく知識獲得",
+    "at": "映像情報メディア学会冬季大会, 早稲田大学",
+    "yearOrDate": "2017/12/13"
+  },
+  {
+    "title": "科学技術論文の構造解析に基づく知識獲得",
+    "at": "富士通研究所",
+    "yearOrDate": "2017/11/21",
+    "slides": "data/shindo-fujitsulab20171121.pdf"
+  },
+  {
+    "title": "自然言語処理の最前線",
+    "at": "ステアラボ人工知能シンポジウム2017, AP秋葉原",
+    "yearOrDate": "2017/03/12",
+    "slides": "data/shindo-STAIRLab20170322.pdf"
+  },
+  {
+    "title": "JukaiNLP.jl: Julia言語による自然言語解析ライブラリ",
+    "at": "Julia Tokyo #6",
+    "yearOrDate": "2016/09/03"
+  },
+  {
+    "title": "自然言語処理における深層学習の省メモリ化・高速化",
+    "at": "情報処理学会 自然言語処理研究会 (NL), 岡山県立大学",
+    "yearOrDate": "2016/07/30"
+  },
+  {
+    "title": "深層学習に基づく自然言語処理の研究動向",
+    "at": "第1回ステアラボ人工知能セミナー, 千葉工業大学東京スカイツリータウン（R）キャンパス",
+    "yearOrDate": "2016/04/28",
+    "slides": "http://www.slideshare.net/stairlab/ss-61806151"
+  },
+  {
+    "title": "Deep Learning の研究事例紹介（自然言語処理分野）",
+    "at": "音響学会 談話会, 京都大学",
+    "yearOrDate": "2016/03/28"
+  },
+  {
+    "title": "Neural POS-Tagging with Julia Language",
+    "at": "Julia Tokyo #5",
+    "yearOrDate": "2015/12/19",
+    "slides": "data/shindo-JuliaTokyo5.pdf"
+  },
+  {
+    "title": "Deep Learning for Natural Language Processing",
+    "at": "脳情報通信融合研究センター（CiNet）",
+    "yearOrDate": "2015/12/11"
+  },
+  {
+    "title": "Concept Dependency for Syntactic and Semantic Annotations of Natural Language Texts",
+    "at": "国立情報学研究所",
+    "yearOrDate": "2015/04/30"
+  },
+  {
+    "title": "統計的手法による文法モデリングと構文解析",
+    "at": "最先端構文解析とその周辺",
+    "arUrl": "http://www.ism.ac.jp/~daichi/workshop/2012-parsing/",
+    "yearOrDate": "2012"
+  },
+  {
+    "title": "Bayesian Symbol-Refined Tree Substitution Grammars for Syntactic Parsing",
+    "at": "NLP若手の会 第7回シンポジウム",
+    "arUrl": "http://yans.anlp.jp/modules/menu/main.php?page_id=107&op=change_page",
+    "yearOrDate": "2012"
+  }
+]

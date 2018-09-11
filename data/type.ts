@@ -1,3 +1,12 @@
+type Associations = {
+  title: string;
+  authors: string[];
+  at: string;
+  atUrl?: string;
+  year: string;
+  award?: string;
+};
+
 type Award = {
   awardName: string;
   title?: string;
@@ -15,11 +24,10 @@ type AwardStudents = {
   year: string;
 };
 
-type Paper = {
+type Books = {
   title: string;
   authors: string[];
-  press: string;
-  link?: string;
+  TODO_what_is_this: string;
 };
 
 type InternationalConf = {
@@ -31,4 +39,19 @@ type InternationalConf = {
   video?: string;
   pdf?: string;
   bibtex?: string;
+};
+
+type Others = {
+  title: string;
+  at: string;
+  atUrl?: string;
+  yearOrDate: string;
+  slides?: string;
+};
+
+type Paper = {
+  title: string;
+  authors: string[];
+  press: string;
+  link?: string;
 };

@@ -17,6 +17,14 @@ h3 {
   white-space: nowrap;
 }
 
+#background-filler {
+  background: #fafafa;
+  min-height: calc(100vh - 64px);
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
 #homepage.container {
   padding-top: 50px;
 }

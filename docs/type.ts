@@ -1,7 +1,7 @@
 type Publication = {
   title: string;
   authors: string[];
-  journal: string;
+  booktitle: string;
   date: string; // '2018' or '2018-09' or '2018-09-10'
   notes: string[];
   links: {
@@ -17,7 +17,7 @@ type Publication = {
 type Award = {
   name: string;
   title: string;
-  authors: string;
+  authors: string[];
   booktitle: string;
   date: string;
   links: {

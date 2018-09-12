@@ -74,3 +74,12 @@ h3 {
   color: rgba(0, 0, 0, 0.6);
   margin-bottom: 0.5rem;
 }
+
+footer .divider {
+  max-width: 500px;
+  margin: auto;
+}
+
+footer .footer-content {
+  padding: 30px 30px;
+}

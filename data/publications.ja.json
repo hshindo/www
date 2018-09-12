@@ -3,7 +3,7 @@
     {
       "title": "語系列の類似性・可換性の特徴表現による並列句の範囲同定",
       "authors": ["寺西 裕紀", "進藤 裕之", "松本 裕治"],
-      "journal": "自然言語処理, Vol.25 No.4",
+      "booktitle": "自然言語処理, Vol.25 No.4",
       "date": "2018-09",
       "notes": [],
       "links": {}
@@ -11,7 +11,7 @@
     {
       "title": "Generating Artificial Error Data for Indonesian Preposition Error Corrections",
       "authors": ["Budi Irmawati", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "International Journal of Technology",
+      "booktitle": "International Journal of Technology",
       "date": "2017",
       "notes": [],
       "links": {}
@@ -24,7 +24,7 @@
         "Hideaki Takeda",
         "Yoshiyasu Takefuji"
       ],
-      "journal": "Transactions of the Association for Computational Linguistics (TACL)",
+      "booktitle": "Transactions of the Association for Computational Linguistics (TACL)",
       "date": "2017",
       "notes": [],
       "links": {}
@@ -37,7 +37,7 @@
         "Hiroyuki Shindo",
         "Yuji Matsumoto"
       ],
-      "journal": "IEEE Transactions on Audio, Speech and Language Processing",
+      "booktitle": "IEEE Transactions on Audio, Speech and Language Processing",
       "date": "2016",
       "notes": [],
       "links": {}
@@ -45,7 +45,7 @@
     {
       "title": "統計的文法獲得モデルのための擬似部分木ブロック化サンプリング法",
       "authors": ["進藤 裕之", "松本 裕治", "永田 昌明"],
-      "journal": "情報処理学会論文誌:数理モデル化と応用(TOM)",
+      "booktitle": "情報処理学会論文誌:数理モデル化と応用(TOM)",
       "date": "2014",
       "notes": [],
       "links": {}
@@ -59,7 +59,7 @@
         "Akinori Fujino",
         "Masaaki Nagata"
       ],
-      "journal": "IPSJ Transactions on Databases (TOD)",
+      "booktitle": "IPSJ Transactions on Databases (TOD)",
       "date": "2012",
       "notes": [],
       "links": {}
@@ -67,7 +67,7 @@
     {
       "title": "Pitman-Yor過程に基づく確率的木挿入文法モデル",
       "authors": ["進藤 裕之", "藤野 昭典", "永田 昌明"],
-      "journal": "情報処理学会論文誌:数理モデル化と応用(TOM)",
+      "booktitle": "情報処理学会論文誌:数理モデル化と応用(TOM)",
       "date": "2012",
       "notes": [],
       "links": {}
@@ -75,7 +75,7 @@
     {
       "title": "同義語情報を用いた確率的単語アライメントモデル",
       "authors": ["進藤 裕之", "藤野 昭典", "永田 昌明"],
-      "journal": "情報処理学会論文誌:数理モデル化と応用(TOM)",
+      "booktitle": "情報処理学会論文誌:数理モデル化と応用(TOM)",
       "date": "2011",
       "notes": [],
       "links": {}
@@ -89,7 +89,7 @@
         "平 博順",
         "進藤 裕之"
       ],
-      "journal": "自然言語処理",
+      "booktitle": "自然言語処理",
       "date": "2011",
       "notes": [],
       "links": {}
@@ -103,10 +103,10 @@
         "Hiroyuki Shindo",
         "Masato Inoue"
       ],
-      "journal": "Journal of Physics: Conference Series, 233, 012022",
+      "booktitle": "Journal of Physics: Conference Series, 233, 012022",
       "date": "2010",
       "notes": [],
-      "links": { "detail": "http://iopscience.iop.org/1742-6596/233/1/012022/" }
+      "links": { "title": "http://iopscience.iop.org/1742-6596/233/1/012022/" }
     },
     {
       "title": "Grouping preprocess for haplotype inference from SNP and CNV data",
@@ -117,10 +117,10 @@
         "Naoyuki Kamatani",
         "Masato Inoue"
       ],
-      "journal": "Journal of Physics: Conference Series, 197, 012009",
+      "booktitle": "Journal of Physics: Conference Series, 197, 012009",
       "date": "2009",
       "notes": [],
-      "links": { "detail": "http://iopscience.iop.org/1742-6596/197/1/012009/" }
+      "links": { "title": "http://iopscience.iop.org/1742-6596/197/1/012009/" }
     },
     {
       "title": "Grouping preprocess to accurately extend application of EM algorithm to haplotype inference",
@@ -131,11 +131,11 @@
         "Naoyuki Kamatani",
         "Masato Inoue"
       ],
-      "journal": "Journal of Human Genetics, 53(8), 747-756",
+      "booktitle": "Journal of Human Genetics, 53(8), 747-756",
       "date": "2008",
       "notes": [],
       "links": {
-        "detail": "http://www.springerlink.com/content/qw1308876201l4g1/?p=8b1c921a6de24defbc0d8aa7c42297f3&pi=8"
+        "title": "http://www.springerlink.com/content/qw1308876201l4g1/?p=8b1c921a6de24defbc0d8aa7c42297f3&pi=8"
       }
     }
   ],
@@ -143,7 +143,7 @@
     {
       "title": "A Span Selection Model for Semantic Role Labeling",
       "authors": ["Hiroki Ouchi", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "In Proceedings of EMNLP",
+      "booktitle": "In Proceedings of EMNLP",
       "date": "2018",
       "notes": [],
       "links": {}
@@ -156,7 +156,7 @@
         "Hiroyuki Shindo",
         "Toshio Morita"
       ],
-      "journal": "In Proceedings of Joint Workshop on Linguistic Annotation, Multiword Expressions and Constructions (LAW-MWE-CxG)",
+      "booktitle": "In Proceedings of Joint Workshop on Linguistic Annotation, Multiword Expressions and Constructions (LAW-MWE-CxG)",
       "date": "2018",
       "notes": [],
       "links": {}
@@ -164,7 +164,7 @@
     {
       "title": "Representation Learning of Entities and Documents from Knowledge Base Descriptions",
       "authors": ["Ikuya Yamada", "Hiroyuki Shindo"],
-      "journal": "In Proceedings of COLING",
+      "booktitle": "In Proceedings of COLING",
       "date": "2018",
       "notes": [],
       "links": {}
@@ -172,7 +172,7 @@
     {
       "title": "Sentence Suggestion of Japanese Functional Expressions for Chinese-speaking Learners",
       "authors": ["Jun Liu", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "In Proceedings of ACL (demo)",
+      "booktitle": "In Proceedings of ACL (demo)",
       "date": "2018",
       "notes": [],
       "links": {}
@@ -185,7 +185,7 @@
         "Hiroyuki Shindo",
         "Yuji Matsumoto"
       ],
-      "journal": "In Proceedings of IJCAI",
+      "booktitle": "In Proceedings of IJCAI",
       "date": "2018",
       "notes": [],
       "links": {}
@@ -200,7 +200,7 @@
         "Hiroyuki Shindo",
         "Yuji Matsumoto"
       ],
-      "journal": "In Proceedings of LREC (Industry Track)",
+      "booktitle": "In Proceedings of LREC (Industry Track)",
       "date": "2018",
       "notes": [],
       "links": {}
@@ -208,7 +208,7 @@
     {
       "title": "PDFAnno: a Web-based Linguistic Annotation Tool for PDF Documents",
       "authors": ["Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "In Proceedings of LREC",
+      "booktitle": "In Proceedings of LREC",
       "date": "2018",
       "notes": [],
       "links": {}
@@ -216,7 +216,7 @@
     {
       "title": "Construction of Large-scale English Verbal Multiword Expression Annotated Corpus",
       "authors": ["Akihiko Kato", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "In Proceedings of LREC",
+      "booktitle": "In Proceedings of LREC",
       "date": "2018",
       "notes": [],
       "links": {}
@@ -229,7 +229,7 @@
         "Hiroyuki Shindo",
         "Yoshiyasu Takefuji"
       ],
-      "journal": "NIPS 2017 Competition Track",
+      "booktitle": "NIPS 2017 Competition Track",
       "date": "2017",
       "notes": [],
       "links": {
@@ -240,7 +240,7 @@
     {
       "title": "Coordination Boundary Identification with Similarity and Replaceability",
       "authors": ["Hiroki Teranishi", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "In Proceedings of IJCNLP",
+      "booktitle": "In Proceedings of IJCNLP",
       "date": "2017",
       "notes": [],
       "links": {}
@@ -248,7 +248,7 @@
     {
       "title": "Segment-Level Neural Conditional Random Fields for Named Entity Recognition",
       "authors": ["Motoki Sato", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "In Proceedings of IJCNLP",
+      "booktitle": "In Proceedings of IJCNLP",
       "date": "2017",
       "notes": [],
       "links": {}
@@ -261,7 +261,7 @@
         "Hiroyuki Shindo",
         "Yuji Matsumoto"
       ],
-      "journal": "In Proceedings of SCIDOCA",
+      "booktitle": "In Proceedings of SCIDOCA",
       "date": "2017",
       "notes": [],
       "links": {}
@@ -269,7 +269,7 @@
     {
       "title": "Joint Prediction of Morphosyntactic Categories for Fine-Grained Arabic Part-of-Speech Tagging Exploiting Tag Dictionary Information",
       "authors": ["Go Inoue", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "In Proceedings of CoNLL",
+      "booktitle": "In Proceedings of CoNLL",
       "date": "2017",
       "notes": [],
       "links": {}
@@ -277,7 +277,7 @@
     {
       "title": "Neural Modeling of Multi-Predicate Interactions for Japanese Predicate Argument Structure Analysis",
       "authors": ["Hiroki Ouchi", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "In Proceedings of ACL",
+      "booktitle": "In Proceedings of ACL",
       "date": "2017",
       "notes": [],
       "links": {}
@@ -285,7 +285,7 @@
     {
       "title": "English Multiword Expression-aware Dependency Parsing including Named Entities",
       "authors": ["Akihiko Kato", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "In Proceedings of ACL",
+      "booktitle": "In Proceedings of ACL",
       "date": "2017",
       "notes": [],
       "links": {}
@@ -299,7 +299,7 @@
         "Hiroyuki Shindo",
         "Yuji Matsumoto"
       ],
-      "journal": "In Proceedings of COLIEE",
+      "booktitle": "In Proceedings of COLIEE",
       "date": "2017",
       "notes": [],
       "links": {}
@@ -313,7 +313,7 @@
         "Katsuhito Sudoh",
         "Masaaki Nagata"
       ],
-      "journal": "In Proceedings of CICLing",
+      "booktitle": "In Proceedings of CICLing",
       "date": "2017",
       "notes": [],
       "links": {}
@@ -321,7 +321,7 @@
     {
       "title": "Ensemble of Neural Classifiers for Scoring Knowledge Base Triples",
       "authors": ["Ikuya Yamada", "Motoki Sato", "Hiroyuki Shindo"],
-      "journal": "In Proceedings of WSDM Workshop for WSDM Cup 2017: Vandalism Detection and Triple Scoring",
+      "booktitle": "In Proceedings of WSDM Workshop for WSDM Cup 2017: Vandalism Detection and Triple Scoring",
       "date": "2017",
       "notes": [],
       "links": {}
@@ -335,7 +335,7 @@
         "Hiroyuki Shindo",
         "Yuji Matsumoto"
       ],
-      "journal": "In Proceedings of COLING 2016 Workshop: Grammar and Lexicon: Interactions and Interfaces",
+      "booktitle": "In Proceedings of COLING 2016 Workshop: Grammar and Lexicon: Interactions and Interfaces",
       "date": "2016",
       "notes": [],
       "links": {}
@@ -348,7 +348,7 @@
         "Hiroyuki Shindo",
         "Yuji Matsumoto"
       ],
-      "journal": "In Proceedings of First International Workshop on SCIentific DOCument Analysis (SCIDOCA)",
+      "booktitle": "In Proceedings of First International Workshop on SCIentific DOCument Analysis (SCIDOCA)",
       "date": "2016",
       "notes": [],
       "links": {}
@@ -356,7 +356,7 @@
     {
       "title": "Information structure analysis of abstracts in multiple domains using word embeddings",
       "authors": ["Mai Omura", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "In Proceedings of First International Workshop on SCIentific DOCument Analysis (SCIDOCA)",
+      "booktitle": "In Proceedings of First International Workshop on SCIentific DOCument Analysis (SCIDOCA)",
       "date": "2016",
       "notes": [],
       "links": {}
@@ -364,7 +364,7 @@
     {
       "title": "Japanese Text Normalization with Encoder-Decoder Model",
       "authors": ["Taishi Ikeda", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "In Proceedings of the 2nd Workshop on Noisy User-generated Text (W-NUT)",
+      "booktitle": "In Proceedings of the 2nd Workshop on Noisy User-generated Text (W-NUT)",
       "date": "2016",
       "notes": [],
       "links": {}
@@ -372,7 +372,7 @@
     {
       "title": "Joint Transition-based Dependency Parsing and Disfluency Detection for Automatic Speech Recognition Texts",
       "authors": ["Masashi Yoshikawa", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "In Proceedings of EMNLP",
+      "booktitle": "In Proceedings of EMNLP",
       "date": "2016",
       "notes": [],
       "links": {}
@@ -380,7 +380,7 @@
     {
       "title": "Multiple Emotions Detection in Conversation Transcripts",
       "authors": ["Duc Anh Phan", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "In Proceedings of PACLIC",
+      "booktitle": "In Proceedings of PACLIC",
       "date": "2016",
       "notes": [],
       "links": {}
@@ -393,7 +393,7 @@
         "Hideaki Takeda",
         "Yoshiyasu Takefuji"
       ],
-      "journal": "In Proceedings of CoNLL",
+      "booktitle": "In Proceedings of CoNLL",
       "date": "2016",
       "notes": [],
       "links": {}
@@ -409,7 +409,7 @@
         "Ikuya Yamada",
         "Hiroyuki Shindo"
       ],
-      "journal": "In Proceedings of NTCIR",
+      "booktitle": "In Proceedings of NTCIR",
       "date": "2016",
       "notes": [],
       "links": {}
@@ -417,7 +417,7 @@
     {
       "title": "Exploiting Syntactic Similarities for Preposition Error Corrections on Indonesian Sentences Written by Second Language Learner",
       "authors": ["Budi Irmawati", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "In Proceedings of 5th Workshop on Spoken Language Technology for Under-resourced Language (SLTU)",
+      "booktitle": "In Proceedings of 5th Workshop on Spoken Language Technology for Under-resourced Language (SLTU)",
       "date": "2016",
       "notes": [],
       "links": {}
@@ -425,7 +425,7 @@
     {
       "title": "Construction of an English Dependency Corpus incorporating Compound Function Words",
       "authors": ["Akihiko Kato", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "In Proceedings of LREC",
+      "booktitle": "In Proceedings of LREC",
       "date": "2016",
       "notes": [],
       "links": {}
@@ -438,7 +438,7 @@
         "Kevin Duh",
         "Hiroyuki Shindo"
       ],
-      "journal": "In Proceedings of SLSP",
+      "booktitle": "In Proceedings of SLSP",
       "date": "2015",
       "notes": [],
       "links": {}
@@ -446,7 +446,7 @@
     {
       "title": "An Efficient Annotation for Phrasal Verbs using Dependency Information",
       "authors": ["Masayuki Komai", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "In Proceedings of PACLIC",
+      "booktitle": "In Proceedings of PACLIC",
       "date": "2015",
       "notes": [],
       "links": {}
@@ -461,7 +461,7 @@
         "Tomoki Toda",
         "Satoshi Nakamura"
       ],
-      "journal": "In Proceedings of Interspeech",
+      "booktitle": "In Proceedings of Interspeech",
       "date": "2015",
       "notes": [],
       "links": {}
@@ -469,7 +469,7 @@
     {
       "title": "Semantic Structure Analysis of Noun Phrases using Abstract Meaning Representation",
       "authors": ["Yuichiro Sawai", "Hiroyuki Shindo", "Yuji Matsumoto"],
-      "journal": "In Proceedings of ACL",
+      "booktitle": "In Proceedings of ACL",
       "date": "2015",
       "notes": [],
       "links": {
@@ -485,7 +485,7 @@
         "Kevin Duh",
         "Yuji Matsumoto"
       ],
-      "journal": "In Proceedings of ACL",
+      "booktitle": "In Proceedings of ACL",
       "date": "2015",
       "notes": [],
       "links": {
@@ -496,7 +496,7 @@
     {
       "title": "Document Classification based on Distributed Document Representation",
       "authors": ["Rumeng Li", "Hiroyuki Shindo"],
-      "journal": "In Proceedings of PAKDD",
+      "booktitle": "In Proceedings of PAKDD",
       "date": "2015",
       "notes": [],
       "links": {}
@@ -504,7 +504,7 @@
     {
       "title": "A Hierarchical Tree Model for Update Summarization",
       "authors": ["Rumeng Li", "Hiroyuki Shindo"],
-      "journal": "In Proceedings of ECIR",
+      "booktitle": "In Proceedings of ECIR",
       "date": "2015",
       "notes": [],
       "links": {}
@@ -517,7 +517,7 @@
         "Akinori Fujino",
         "Masaaki Nagata"
       ],
-      "journal": "In Proceedings of IJCAI",
+      "booktitle": "In Proceedings of IJCAI",
       "date": "2013",
       "notes": [],
       "links": {}
@@ -530,7 +530,7 @@
         "Akinori Fujino",
         "Masaaki Nagata"
       ],
-      "journal": "In Proceedings of ACL",
+      "booktitle": "In Proceedings of ACL",
       "date": "2012",
       "notes": [],
       "links": {
@@ -542,7 +542,7 @@
     {
       "title": "Insertion Operator for Bayesian Tree Substitution Grammars",
       "authors": ["Hiroyuki Shindo", "Akinori Fujino", "Masaaki Nagata"],
-      "journal": "In Proceedings of ACL",
+      "booktitle": "In Proceedings of ACL",
       "date": "2011",
       "notes": [],
       "links": {
@@ -554,7 +554,7 @@
     {
       "title": "Word Alignment with Synonym Regularization",
       "authors": ["Hiroyuki Shindo", "Akinori Fujino", "Masaaki Nagata"],
-      "journal": "In Proceedings of ACL",
+      "booktitle": "In Proceedings of ACL",
       "date": "2010",
       "notes": [],
       "links": {
@@ -567,50 +567,50 @@
     {
       "title": "意味役割付与のためのスパン選択モデル",
       "authors": ["大内 啓樹", "進藤 裕之", "松本 裕治"],
-      "journal": "情報処理学会 自然言語処理研究会 (NL)",
+      "booktitle": "情報処理学会 自然言語処理研究会 (NL)",
       "date": "2018",
       "notes": [],
-      "links": { "detail": "http://www.nl-ipsj.or.jp/" }
+      "links": { "booktitle": "http://www.nl-ipsj.or.jp/" }
     },
     {
       "title": "教師なしニューラル単語分割を用いた分散表現獲得",
       "authors": ["平岡 達也", "進藤 裕之", "松本 裕治"],
-      "journal": "情報処理学会 自然言語処理研究会 (NL)",
+      "booktitle": "情報処理学会 自然言語処理研究会 (NL)",
       "date": "2018",
       "notes": [],
-      "links": { "detail": "http://www.nl-ipsj.or.jp/" }
+      "links": { "booktitle": "http://www.nl-ipsj.or.jp/" }
     },
     {
       "title": "英語の動詞系複単語表現コーパスの構築",
       "authors": ["加藤 明彦", "進藤 裕之", "松本 裕治"],
-      "journal": "言語処理学会第24回年次大会",
+      "booktitle": "言語処理学会第24回年次大会",
       "date": "2018",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/nlp2018/" }
+      "links": { "booktitle": "http://www.anlp.jp/nlp2018/" }
     },
     {
       "title": "非即時的なタスク設定における固有表現抽出の改善",
       "authors": ["澤山 熱気", "鈴木潤", "進藤 裕之", "松本 裕治"],
-      "journal": "言語処理学会第24回年次大会",
+      "booktitle": "言語処理学会第24回年次大会",
       "date": "2018",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/nlp2018/" }
+      "links": { "booktitle": "http://www.anlp.jp/nlp2018/" }
     },
     {
       "title": "自然言語処理における解釈可能な敵対的摂動の学習",
       "authors": ["佐藤 元紀", "鈴木潤", "進藤 裕之", "松本 裕治"],
-      "journal": "言語処理学会第24回年次大会",
+      "booktitle": "言語処理学会第24回年次大会",
       "date": "2018",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/nlp2018/" }
+      "links": { "booktitle": "http://www.anlp.jp/nlp2018/" }
     },
     {
       "title": "マルチタスク学習による遷移型依存構文解析",
       "authors": ["寺西 裕紀", "進藤 裕之", "松本 裕治"],
-      "journal": "言語処理学会第24回年次大会",
+      "booktitle": "言語処理学会第24回年次大会",
       "date": "2018",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/nlp2018/" }
+      "links": { "booktitle": "http://www.anlp.jp/nlp2018/" }
     },
     {
       "title": "自然言語処理とLinked Dataを用いた化学物質情報の可視化",
@@ -622,98 +622,98 @@
         "進藤 裕之",
         "松本 裕治"
       ],
-      "journal": "言語処理学会第24回年次大会",
+      "booktitle": "言語処理学会第24回年次大会",
       "date": "2018",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/nlp2018/" }
+      "links": { "booktitle": "http://www.anlp.jp/nlp2018/" }
     },
     {
       "title": "意味役割付与における未知分野へのニューラル分野適応技術",
       "authors": ["大内 啓樹", "進藤 裕之", "松本 裕治"],
-      "journal": "情報処理学会 自然言語処理研究会 (NL)",
+      "booktitle": "情報処理学会 自然言語処理研究会 (NL)",
       "date": "2017",
       "notes": [],
-      "links": { "detail": "http://www.nl-ipsj.or.jp/" }
+      "links": { "booktitle": "http://www.nl-ipsj.or.jp/" }
     },
     {
       "title": "アラビア語の高粒度な品詞タグ付けのための辞書情報を活用した形態統語的カテゴリの同時予測",
       "authors": ["井上 剛", "進藤 裕之", "松本 裕治"],
-      "journal": "情報処理学会 自然言語処理研究会 (NL)",
+      "booktitle": "情報処理学会 自然言語処理研究会 (NL)",
       "date": "2017",
       "notes": [],
-      "links": { "detail": "http://www.nl-ipsj.or.jp/" }
+      "links": { "booktitle": "http://www.nl-ipsj.or.jp/" }
     },
     {
       "title": "ニューラルネットワークに基づく並列句表現の学習と構造解析",
       "authors": ["寺西 裕紀", "進藤 裕之", "松本 裕治"],
-      "journal": "情報処理学会 自然言語処理研究会 (NL)",
+      "booktitle": "情報処理学会 自然言語処理研究会 (NL)",
       "date": "2017",
       "notes": [],
-      "links": { "detail": "http://www.nl-ipsj.or.jp/" }
+      "links": { "booktitle": "http://www.nl-ipsj.or.jp/" }
     },
     {
       "title": "遷移型句構造解析に基づく論文PDF中の数式XML解析",
       "authors": ["澤井 裕一郎", "進藤 裕之", "松本 裕治"],
-      "journal": "情報処理学会 自然言語処理研究会 (NL)",
+      "booktitle": "情報処理学会 自然言語処理研究会 (NL)",
       "date": "2017",
       "notes": [],
-      "links": { "detail": "http://www.nl-ipsj.or.jp/" }
+      "links": { "booktitle": "http://www.nl-ipsj.or.jp/" }
     },
     {
       "title": "PDFAnno: PDFドキュメントのための言語アノテーションツール",
       "authors": ["進藤 裕之", "松本 裕治"],
-      "journal": "言語処理学会第23回年次大会",
+      "booktitle": "言語処理学会第23回年次大会",
       "date": "2017",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/nlp2017/" }
+      "links": { "booktitle": "http://www.anlp.jp/nlp2017/" }
     },
     {
       "title": "固有表現と複合機能語を考慮したMWEベースの依存構造コーパス構築と解析",
       "authors": ["加藤 明彦", "進藤 裕之", "松本 裕治"],
-      "journal": "言語処理学会第23回年次大会",
+      "booktitle": "言語処理学会第23回年次大会",
       "date": "2017",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/nlp2017/" }
+      "links": { "booktitle": "http://www.anlp.jp/nlp2017/" }
     },
     {
       "title": "科学技術文献の共参照解析コーパスの整備",
       "authors": ["岩元 文", "能地 宏", "進藤 裕之", "松本 裕治"],
-      "journal": "言語処理学会第23回年次大会",
+      "booktitle": "言語処理学会第23回年次大会",
       "date": "2017",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/nlp2017/" }
+      "links": { "booktitle": "http://www.anlp.jp/nlp2017/" }
     },
     {
       "title": "ラティス構造とニューラルネットワークに基づく系列ラベリング",
       "authors": ["佐藤 元紀", "進藤 裕之", "松本 裕治"],
-      "journal": "言語処理学会第23回年次大会",
+      "booktitle": "言語処理学会第23回年次大会",
       "date": "2017",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/nlp2017/" }
+      "links": { "booktitle": "http://www.anlp.jp/nlp2017/" }
     },
     {
       "title": "文法誤り訂正のための疑似誤り生成によるラベルなしコーパスの利用",
       "authors": ["澤井 裕一郎", "進藤 裕之", "松本 裕治"],
-      "journal": "言語処理学会第23回年次大会",
+      "booktitle": "言語処理学会第23回年次大会",
       "date": "2017",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/nlp2017/" }
+      "links": { "booktitle": "http://www.anlp.jp/nlp2017/" }
     },
     {
       "title": "文書全体を考慮したニューラル文間ゼロ照応解析モデル",
       "authors": ["大内 啓樹", "進藤 裕之", "松本 裕治"],
-      "journal": "言語処理学会第23回年次大会",
+      "booktitle": "言語処理学会第23回年次大会",
       "date": "2017",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/nlp2017/" }
+      "links": { "booktitle": "http://www.anlp.jp/nlp2017/" }
     },
     {
       "title": "辞書情報と単語分散表現を組み込んだリカレントニューラルネットワークによる日本語単語分割",
       "authors": ["池田 大志", "進藤 裕之", "松本 裕治"],
-      "journal": "言語処理学会第23回年次大会",
+      "booktitle": "言語処理学会第23回年次大会",
       "date": "2017",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/nlp2017/" }
+      "links": { "booktitle": "http://www.anlp.jp/nlp2017/" }
     },
     {
       "title": "依存構造情報を用いた柔軟な複単語表現の同定",
@@ -724,39 +724,39 @@
         "進藤 裕之",
         "松本 裕治"
       ],
-      "journal": "言語処理学会第23回年次大会",
+      "booktitle": "言語処理学会第23回年次大会",
       "date": "2017",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/nlp2017/" }
+      "links": { "booktitle": "http://www.anlp.jp/nlp2017/" }
     },
     {
       "title": "深層リカレントニューラルネットワークを用いた日本語述語項構造解析",
       "authors": ["大内 啓樹", "進藤 裕之", "松本 裕治"],
-      "journal": "情報処理学会 自然言語処理研究会 (NL)",
+      "booktitle": "情報処理学会 自然言語処理研究会 (NL)",
       "date": "2016",
       "notes": [],
-      "links": { "detail": "http://www.nl-ipsj.or.jp/" }
+      "links": { "booktitle": "http://www.nl-ipsj.or.jp/" }
     },
     {
       "title": "複単語表現を考慮した英語の依存構造解析モデリング",
       "authors": ["加藤 明彦", "進藤 裕之", "松本 裕治"],
-      "journal": "情報処理学会 自然言語処理研究会 (NL)",
+      "booktitle": "情報処理学会 自然言語処理研究会 (NL)",
       "date": "2016",
       "notes": [],
-      "links": { "detail": "http://www.nl-ipsj.or.jp/" }
+      "links": { "booktitle": "http://www.nl-ipsj.or.jp/" }
     },
     {
       "title": "Encoder-Decoderモデルを用いた日本語崩れ表記の正規化",
       "authors": ["池田 大志", "進藤 裕之", "松本 裕治"],
-      "journal": "情報処理学会 自然言語処理研究会 (NL)",
+      "booktitle": "情報処理学会 自然言語処理研究会 (NL)",
       "date": "2016",
       "notes": [],
-      "links": { "detail": "http://www.nl-ipsj.or.jp/" }
+      "links": { "booktitle": "http://www.nl-ipsj.or.jp/" }
     },
     {
       "title": "JukaiNLP: 深層学習によるリアルタイム言語解析システム",
       "authors": ["進藤 裕之"],
-      "journal": "NLP若手の会 (YANS) 第11回シンポジウム",
+      "booktitle": "NLP若手の会 (YANS) 第11回シンポジウム",
       "date": "2016",
       "notes": [],
       "links": {}
@@ -764,7 +764,7 @@
     {
       "title": "ACL Anthologyデータを利用した英語論文作成支援システム",
       "authors": ["澤井 裕一郎", "池田 大志", "進藤 裕之"],
-      "journal": "NLP若手の会 (YANS) 第11回シンポジウム",
+      "booktitle": "NLP若手の会 (YANS) 第11回シンポジウム",
       "date": "2016",
       "notes": [],
       "links": {}
@@ -772,7 +772,7 @@
     {
       "title": "Memory付きFeedforward Networkの性能評価",
       "authors": ["佐藤 元紀", "進藤 裕之", "松本 裕治"],
-      "journal": "NLP若手の会 (YANS) 第11回シンポジウム",
+      "booktitle": "NLP若手の会 (YANS) 第11回シンポジウム",
       "date": "2016",
       "notes": [],
       "links": {}
@@ -780,34 +780,34 @@
     {
       "title": "Julia言語による深層学習ライブラリの実装と評価",
       "authors": ["進藤 裕之", "澤井 裕一郎", "大内 啓樹", "松本 裕治"],
-      "journal": "第30回人工知能学会全国大会",
+      "booktitle": "第30回人工知能学会全国大会",
       "date": "2016",
       "notes": [],
-      "links": { "detail": "http://www.ai-gakkai.or.jp/jsai2016/" }
+      "links": { "booktitle": "http://www.ai-gakkai.or.jp/jsai2016/" }
     },
     {
       "title": "大規模な単語活用辞書を用いた英単語の見出し語化",
       "authors": ["駒井 雅之", "進藤 裕之", "松本 裕治"],
-      "journal": "第14回日本データベース学会年次大会",
+      "booktitle": "第14回日本データベース学会年次大会",
       "date": "2016",
       "notes": [],
-      "links": { "detail": "http://db-event.jpn.org/deim2016/" }
+      "links": { "booktitle": "http://db-event.jpn.org/deim2016/" }
     },
     {
       "title": "話し言葉の依存構造解析における音声認識誤りの影響と評価",
       "authors": ["吉川 将司", "進藤 裕之", "松本 裕治"],
-      "journal": "言語処理学会第22回年次大会",
+      "booktitle": "言語処理学会第22回年次大会",
       "date": "2016",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/nlp2016/" }
+      "links": { "booktitle": "http://www.anlp.jp/nlp2016/" }
     },
     {
       "title": "リカレントニューラルネットワークを用いた述語項構造解析",
       "authors": ["大内 啓樹", "進藤 裕之", "松本 裕治"],
-      "journal": "言語処理学会第22回年次大会",
+      "booktitle": "言語処理学会第22回年次大会",
       "date": "2016",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/nlp2016/" }
+      "links": { "booktitle": "http://www.anlp.jp/nlp2016/" }
     },
     {
       "title": "A Joint Model for Pause Prediction and Dependency Parsing using Latent Variables",
@@ -819,71 +819,71 @@
         "Tomoki Toda",
         "Satoshi Nakamura"
       ],
-      "journal": "言語処理学会第22回年次大会",
+      "booktitle": "言語処理学会第22回年次大会",
       "date": "2016",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/nlp2016/" }
+      "links": { "booktitle": "http://www.anlp.jp/nlp2016/" }
     },
     {
       "title": "畳み込みニューラルネットワークを用いた複単語表現の解析",
       "authors": ["進藤 裕之", "松本 裕治"],
-      "journal": "情報処理学会 自然言語処理研究会 (NL)",
+      "booktitle": "情報処理学会 自然言語処理研究会 (NL)",
       "date": "2015",
       "notes": [],
-      "links": { "detail": "http://www.nl-ipsj.or.jp/" }
+      "links": { "booktitle": "http://www.nl-ipsj.or.jp/" }
     },
     {
       "title": "複合機能語を考慮した英語の依存構造コーパスの構築",
       "authors": ["加藤 明彦", "進藤 裕之", "松本 裕治"],
-      "journal": "情報処理学会 自然言語処理研究会 (NL)",
+      "booktitle": "情報処理学会 自然言語処理研究会 (NL)",
       "date": "2015",
       "notes": [],
-      "links": { "detail": "http://www.nl-ipsj.or.jp/" }
+      "links": { "booktitle": "http://www.nl-ipsj.or.jp/" }
     },
     {
       "title": "Abstract Meaning Representationを用いた名詞句の意味構造解析",
       "authors": ["澤井 裕一郎", "進藤 裕之", "松本 裕治"],
-      "journal": "情報処理学会 自然言語処理研究会 (NL)",
+      "booktitle": "情報処理学会 自然言語処理研究会 (NL)",
       "date": "2015",
       "notes": [],
-      "links": { "detail": "http://www.nl-ipsj.or.jp/" }
+      "links": { "booktitle": "http://www.nl-ipsj.or.jp/" }
     },
     {
       "title": "複数の述語間関係を考慮した日本語述語項構造解析",
       "authors": ["大村 舞", "進藤 裕之", "松本 裕治"],
-      "journal": "言語処理学会第21回年次大会",
+      "booktitle": "言語処理学会第21回年次大会",
       "date": "2015",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/" }
+      "links": { "booktitle": "http://www.anlp.jp/" }
     },
     {
       "title": "複数の述語項構造の同時解析手法に関する調査",
       "authors": ["大内 啓樹", "進藤 裕之", "Kevin Duh", "松本 裕治"],
-      "journal": "言語処理学会第21回年次大会",
+      "booktitle": "言語処理学会第21回年次大会",
       "date": "2015",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/" }
+      "links": { "booktitle": "http://www.anlp.jp/" }
     },
     {
       "title": "A Dependency Annotation Scheme for Indonesian",
       "authors": ["Budi Irmawati", "進藤 裕之", "松本 裕治"],
-      "journal": "言語処理学会第21回年次大会",
+      "booktitle": "言語処理学会第21回年次大会",
       "date": "2015",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/" }
+      "links": { "booktitle": "http://www.anlp.jp/" }
     },
     {
       "title": "英語の句動詞表現の同定とコーパス構築",
       "authors": ["駒井 雅之", "進藤 裕之", "松本 裕治"],
-      "journal": "言語処理学会第21回年次大会",
+      "booktitle": "言語処理学会第21回年次大会",
       "date": "2015",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/" }
+      "links": { "booktitle": "http://www.anlp.jp/" }
     },
     {
       "title": "Supertagの曖昧性を考慮した依存構造解析",
       "authors": ["大内 啓樹", "Kevin Duh", "進藤 裕之", "松本 裕治"],
-      "journal": "情報処理学会研究報告 第218回自然言語処理研究会, Vol.2014-NL-218, No.6, pp., 1 September 2014.",
+      "booktitle": "情報処理学会研究報告 第218回自然言語処理研究会, Vol.2014-NL-218, No.6, pp., 1 September 2014.",
       "date": "2014",
       "notes": [],
       "links": {}
@@ -891,58 +891,58 @@
     {
       "title": "遷移型依存構造解析における擬似曖昧性の影響",
       "authors": ["進藤 裕之", "永田 昌明"],
-      "journal": "言語処理学会第20回年次大会",
+      "booktitle": "言語処理学会第20回年次大会",
       "date": "2014",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/" }
+      "links": { "booktitle": "http://www.anlp.jp/" }
     },
     {
       "title": "統計的文法獲得モデルのための部分木ブロック化サンプリング法",
       "authors": ["進藤 裕之", "松本 裕治", "永田 昌明"],
-      "journal": "数理モデル化と問題解決(MPS)研究会",
+      "booktitle": "数理モデル化と問題解決(MPS)研究会",
       "date": "2013",
       "notes": [],
-      "links": { "detail": "http://www.ipsj.or.jp/sig/mps/" }
+      "links": { "booktitle": "http://www.ipsj.or.jp/sig/mps/" }
     },
     {
       "title": "統計翻訳における統語的ラベル細分化の検討",
       "authors": ["須藤 克仁", "進藤 裕之", "塚田 元", "永田 昌明"],
-      "journal": "言語処理学会第19回年次大会",
+      "booktitle": "言語処理学会第19回年次大会",
       "date": "2013",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/" }
+      "links": { "booktitle": "http://www.anlp.jp/" }
     },
     {
       "title": "Pitman-Yor過程に基づく確率的木挿入文法モデル",
       "authors": ["進藤 裕之", "藤野 昭典", "永田 昌明"],
-      "journal": "数理モデル化と問題解決(MPS)研究会",
+      "booktitle": "数理モデル化と問題解決(MPS)研究会",
       "date": "2012",
       "notes": [],
-      "links": { "detail": "http://www.ipsj.or.jp/sig/mps/" }
+      "links": { "booktitle": "http://www.ipsj.or.jp/sig/mps/" }
     },
     {
       "title": "シンボル細分化を適用した階層Pitman-Yor過程に基づく木置換文法獲得法と構文解析への応用",
       "authors": ["進藤 裕之", "宮尾 祐介", "藤野 昭典", "永田 昌明"],
-      "journal": "言語処理学会第18回年次大会",
+      "booktitle": "言語処理学会第18回年次大会",
       "date": "2012",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/" }
+      "links": { "booktitle": "http://www.anlp.jp/" }
     },
     {
       "title": "ベイズ学習による木接合文法獲得",
       "authors": ["進藤 裕之，藤野 昭典，永田 昌明"],
-      "journal": "言語処理学会第17回年次大会",
+      "booktitle": "言語処理学会第17回年次大会",
       "date": "2011",
       "notes": [],
-      "links": { "detail": "http://www.anlp.jp/" }
+      "links": { "booktitle": "http://www.anlp.jp/" }
     },
     {
       "title": "同義語情報を用いた確率的単語アライメントモデル",
       "authors": ["進藤 裕之，藤野 昭典，永田 昌明"],
-      "journal": "数理モデル化と問題解決(MPS)研究会",
+      "booktitle": "数理モデル化と問題解決(MPS)研究会",
       "date": "2010",
       "notes": [],
-      "links": { "detail": "http://www.ipsj.or.jp/sig/mps/" }
+      "links": { "booktitle": "http://www.ipsj.or.jp/sig/mps/" }
     },
     {
       "title": "A haplotype inference method based on sparsely connected multi-body Ising model",
@@ -953,20 +953,20 @@
         "Hiroyuki Shindo",
         "Masato Inoue"
       ],
-      "journal": "International Workshop on Statistical-Mechanical Informatics 2010 (IW-SMI2010)",
+      "booktitle": "International Workshop on Statistical-Mechanical Informatics 2010 (IW-SMI2010)",
       "date": "2010",
       "notes": [],
       "links": {
-        "detail": "http://dex-smi.sp.dis.titech.ac.jp/DEX-SMI/iw-smi2010"
+        "booktitle": "http://dex-smi.sp.dis.titech.ac.jp/DEX-SMI/iw-smi2010"
       }
     },
     {
       "title": "Boltzmannマシンによるhaplotype推定",
       "authors": ["千明 裕", "加藤 真志", "進藤 裕之", "井上 真郷"],
-      "journal": "科研費特定領域研究「情報統計力学の深化と展開」 平成21年度チュートリアル",
+      "booktitle": "科研費特定領域研究「情報統計力学の深化と展開」 平成21年度チュートリアル",
       "date": "2009",
       "notes": [],
-      "links": { "detail": "http://dex-smi.sp.dis.titech.ac.jp/DEX-SMI" }
+      "links": { "booktitle": "http://dex-smi.sp.dis.titech.ac.jp/DEX-SMI" }
     },
     {
       "title": "Grouping preprocess for haplotype inference from SNP and CNV data",
@@ -977,17 +977,17 @@
         "Naoyuki Kamatani",
         "Masato Inoue"
       ],
-      "journal": "International Workshop on Statistical-Mechanical Informatics 2009 (IW-SMI2009)",
+      "booktitle": "International Workshop on Statistical-Mechanical Informatics 2009 (IW-SMI2009)",
       "date": "2009",
       "notes": [],
       "links": {
-        "detail": "http://dex-smi.sp.dis.titech.ac.jp/DEX-SMI/iw-smi2009"
+        "booktitle": "http://dex-smi.sp.dis.titech.ac.jp/DEX-SMI/iw-smi2009"
       }
     },
     {
       "title": "SNP及びCNVデータからのHardy-Weinberg平衡を仮定したhaplotype推定",
       "authors": ["千明裕", "進藤裕之", "長岡萌代", "鎌谷直之", "井上真郷"],
-      "journal": "ハイテクリサーチセンター第1回成果報告シンポジウム",
+      "booktitle": "ハイテクリサーチセンター第1回成果報告シンポジウム",
       "date": "2009",
       "notes": [],
       "links": {}
@@ -1001,7 +1001,7 @@
         "Naoyuki Kamatani",
         "Masato Inoue"
       ],
-      "journal": "The 1st International Symposium on Biomedical Science and Engineering",
+      "booktitle": "The 1st International Symposium on Biomedical Science and Engineering",
       "date": "2009",
       "notes": [],
       "links": {}
@@ -1009,18 +1009,18 @@
     {
       "title": "2体結合モデルによる統計力学的ハプロタイプ推定",
       "authors": ["千明 裕", "進藤 裕之", "井上 真郷"],
-      "journal": "電子情報通信学会技術研究報告",
+      "booktitle": "電子情報通信学会技術研究報告",
       "date": "2009",
       "notes": [],
-      "links": { "detail": "http://www.ieice.org/jpn/books/gihouannai.html" }
+      "links": { "booktitle": "http://www.ieice.org/jpn/books/gihouannai.html" }
     },
     {
       "title": "隠れMarkovモデルに基づく交叉率推定",
       "authors": ["千明 裕", "進藤 裕之", "井上 真郷"],
-      "journal": "科研費特定領域研究「情報統計力学の深化と展開」 平成20年度研究成果発表会",
+      "booktitle": "科研費特定領域研究「情報統計力学の深化と展開」 平成20年度研究成果発表会",
       "date": "2008",
       "notes": [],
-      "links": { "detail": "http://dex-smi.sp.dis.titech.ac.jp/DEX-SMI" }
+      "links": { "booktitle": "http://dex-smi.sp.dis.titech.ac.jp/DEX-SMI" }
     },
     {
       "title": "Dimension reduction using symmetrical structure --an example of the expectation-maximization (EM) algorithm for haplotype inference",
@@ -1031,7 +1031,7 @@
         "Naoyuki Kamatani",
         "Masato Inoue"
       ],
-      "journal": "Disordered systems group seminar at King's College London (invited seminar)",
+      "booktitle": "Disordered systems group seminar at King's College London (invited seminar)",
       "date": "2008",
       "notes": [],
       "links": {}
@@ -1045,10 +1045,10 @@
         "鎌谷 直之",
         "井上 真郷"
       ],
-      "journal": "科研費特定領域研究「情報統計力学の深化と展開」 平成19年度研究成果発表会",
+      "booktitle": "科研費特定領域研究「情報統計力学の深化と展開」 平成19年度研究成果発表会",
       "date": "2007",
       "notes": [],
-      "links": { "detail": "http://dex-smi.sp.dis.titech.ac.jp/DEX-SMI" }
+      "links": { "booktitle": "http://dex-smi.sp.dis.titech.ac.jp/DEX-SMI" }
     },
     {
       "title": "haplotype推定における指数関数的計算量を削減するためのグルーピング前処理",
@@ -1059,10 +1059,10 @@
         "鎌谷 直之",
         "井上 真郷"
       ],
-      "journal": "日本人類遺伝学会第52回大会(oral)",
+      "booktitle": "日本人類遺伝学会第52回大会(oral)",
       "date": "2007",
       "notes": [],
-      "links": { "detail": "http://jshg.jp/" }
+      "links": { "booktitle": "http://jshg.jp/" }
     }
   ],
   "books": [
@@ -1074,7 +1074,7 @@
         "Hiroyuki Shindo",
         "Yoshiyasu Takefuji"
       ],
-      "journal": "NIPS 2017 Competition track Springer Proceedings, 2017",
+      "booktitle": "NIPS 2017 Competition track Springer Proceedings, 2017",
       "date": "2017",
       "notes": [],
       "links": {}
@@ -1084,7 +1084,7 @@
     {
       "title": "ディープラーニングによる自然言語処理と医療分野への応用",
       "authors": ["進藤 裕之"],
-      "journal": "言語処理学会第24回第44回 核医学特別セミナー, 北海道大学",
+      "booktitle": "言語処理学会第24回第44回 核医学特別セミナー, 北海道大学",
       "date": "2018-04-18",
       "notes": [],
       "links": {}
@@ -1092,7 +1092,7 @@
     {
       "title": "若手大学教員の仕事",
       "authors": ["進藤 裕之"],
-      "journal": "言語処理学会第24回年次大会(NLP2018) 若手チュートリアル, 岡山コンベンションセンター",
+      "booktitle": "言語処理学会第24回年次大会(NLP2018) 若手チュートリアル, 岡山コンベンションセンター",
       "date": "2018-03-12",
       "notes": [],
       "links": {}
@@ -1100,7 +1100,7 @@
     {
       "title": "科学技術論文の自動理解に基づく知識獲得",
       "authors": ["進藤 裕之"],
-      "journal": "映像情報メディア学会冬季大会, 早稲田大学",
+      "booktitle": "映像情報メディア学会冬季大会, 早稲田大学",
       "date": "2017-12-13",
       "notes": [],
       "links": {}
@@ -1108,7 +1108,7 @@
     {
       "title": "科学技術論文の構造解析に基づく知識獲得",
       "authors": ["進藤 裕之"],
-      "journal": "富士通研究所",
+      "booktitle": "富士通研究所",
       "date": "2017-11-21",
       "notes": [],
       "links": {}
@@ -1116,7 +1116,7 @@
     {
       "title": "自然言語処理の最前線",
       "authors": ["進藤 裕之"],
-      "journal": "ステアラボ人工知能シンポジウム2017, AP秋葉原",
+      "booktitle": "ステアラボ人工知能シンポジウム2017, AP秋葉原",
       "date": "2017-03-12",
       "notes": [],
       "links": {}
@@ -1124,7 +1124,7 @@
     {
       "title": "JukaiNLP.jl: Julia言語による自然言語解析ライブラリ",
       "authors": ["進藤 裕之"],
-      "journal": "Julia Tokyo #6",
+      "booktitle": "Julia Tokyo #6",
       "date": "2016-09-03",
       "notes": [],
       "links": {}
@@ -1132,7 +1132,7 @@
     {
       "title": "自然言語処理における深層学習の省メモリ化・高速化",
       "authors": ["進藤 裕之"],
-      "journal": "情報処理学会 自然言語処理研究会 (NL), 岡山県立大学",
+      "booktitle": "情報処理学会 自然言語処理研究会 (NL), 岡山県立大学",
       "date": "2016-07-30",
       "notes": [],
       "links": {}
@@ -1140,7 +1140,7 @@
     {
       "title": "深層学習に基づく自然言語処理の研究動向",
       "authors": ["進藤 裕之"],
-      "journal": "第1回ステアラボ人工知能セミナー, 千葉工業大学東京スカイツリータウン（R）キャンパス",
+      "booktitle": "第1回ステアラボ人工知能セミナー, 千葉工業大学東京スカイツリータウン（R）キャンパス",
       "date": "2016-04-28",
       "notes": [],
       "links": {}
@@ -1148,7 +1148,7 @@
     {
       "title": "Deep Learning の研究事例紹介（自然言語処理分野）",
       "authors": ["進藤 裕之"],
-      "journal": "音響学会 談話会, 京都大学",
+      "booktitle": "音響学会 談話会, 京都大学",
       "date": "2016-03-28",
       "notes": [],
       "links": {}
@@ -1156,7 +1156,7 @@
     {
       "title": "Neural POS-Tagging with Julia Language",
       "authors": ["進藤 裕之"],
-      "journal": "Julia Tokyo #5",
+      "booktitle": "Julia Tokyo #5",
       "date": "2015-12-19",
       "notes": [],
       "links": {}
@@ -1164,7 +1164,7 @@
     {
       "title": "Deep Learning for Natural Language Processing",
       "authors": ["進藤 裕之"],
-      "journal": "脳情報通信融合研究センター（CiNet）",
+      "booktitle": "脳情報通信融合研究センター（CiNet）",
       "date": "2015-12-11",
       "notes": [],
       "links": {}
@@ -1172,7 +1172,7 @@
     {
       "title": "Concept Dependency for Syntactic and Semantic Annotations of Natural Language Texts",
       "authors": ["進藤 裕之"],
-      "journal": "国立情報学研究所",
+      "booktitle": "国立情報学研究所",
       "date": "2015-04-30",
       "notes": [],
       "links": {}
@@ -1180,21 +1180,21 @@
     {
       "title": "統計的手法による文法モデリングと構文解析",
       "authors": ["進藤 裕之"],
-      "journal": "最先端構文解析とその周辺",
+      "booktitle": "最先端構文解析とその周辺",
       "date": "2012",
       "notes": [],
       "links": {
-        "detail": "http://www.ism.ac.jp/~daichi/workshop/2012-parsing/"
+        "booktitle": "http://www.ism.ac.jp/~daichi/workshop/2012-parsing/"
       }
     },
     {
       "title": "Bayesian Symbol-Refined Tree Substitution Grammars for Syntactic Parsing",
       "authors": ["進藤 裕之"],
-      "journal": "NLP若手の会 第7回シンポジウム",
+      "booktitle": "NLP若手の会 第7回シンポジウム",
       "date": "2012",
       "notes": [],
       "links": {
-        "detail": "http://yans.anlp.jp/modules/menu/main.php?page_id=107&op=change_page"
+        "booktitle": "http://yans.anlp.jp/modules/menu/main.php?page_id=107&op=change_page"
       }
     }
   ]

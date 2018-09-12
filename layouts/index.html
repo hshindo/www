@@ -1,16 +1,86 @@
 {{ define "main" }}
-  <!-- layout for root(`/`) page -->
-
-  <h1>GIF、名前、所属、研究内容、略歴などをここに挿入</h1>
-
-  <h2>News</h2>
-  {{ $news := (where .Pages.ByDate "Section" "news").Reverse }}
-  {{ range first 3 $news }} <!-- TODO: adjust the number of contents-->
-    <a href="{{ .URL | relLangURL }}"><h3>{{ .Title }}</h3></a>
-    <p>{{ .Date }}</p>
-    <p>{{ .Params.Summary }}</p>
-  {{ end }}
-
-  <a href="{{ `/news/` | relLangURL }}">{{ i18n "past_news"}}</a>
-
+<!-- layout for root(`/`) page -->
+<div id="homepage" class="container">
+  <div class="row">
+    <div class="col s12 l4">
+      <div class="profile">
+        <img class="portrait circle responsive-img" src="/img/portrait.png">
+        <div class="portrait-title">
+          <h2 class="name">Jeremy Atkinson</h2>
+          <h3 class="jobTitle">Structural Engineer, Researcher, Programmer</h3>
+          <h3 class="worksFor">
+            <a href="https://www.test.com/" target="_blank" itemprop="url">
+              <span itemprop="name">Test Company</span>
+            </a>
+          </h3>
+        </div>
+        <ul class="social-icon">
+          <li>
+            <a href="mailto:jeremy@kinson.io" target="_blank">
+              <i class="fas fa-envelope fa-2x"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/Jeremy_Atkinson" target="_blank">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://scholar.google.ca/citations?user=iQ35JyIAAAAJ&amp;hl=en" target="_blank">
+              <i class="fab fa-google-plus fa-2x"></i>
+            </a>
+          </li>
+          <li>
+            <a href="//github.com/jchatkinson" target="_blank">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col s12 l8">
+      <h1>Biography</h1>
+      <p>I’m a structural engineer at Bryson Markulin Zickmantel Structural Engineers in Vancouver, BC. My job is to
+        make sure structures don’t fall down. I use advanced tools like finite element and nonlinear analysis to make
+        it (not) happen.</p>
+      <p>Previously I was a graduate student at UBC where I worked on problems such as the seismic performance of tall
+        buildings, effect of vertical ground motions on structures, nonlinear modelling of diagonally-reinforced
+        coupling beams, seismic assessment of non-structural components, and seismic design of outrigger systems.</p>
+      <p>When I’m not scheming, analyzing or designing structures, I’m writing software to help accomplish those
+        things. To that end, I work on plugins for some common structural analysis software, in-house data processing
+        tools, and miscellanous other projects.</p>
+      <div class="row">
+        <div class="col s12 m5">
+          <h3>Interests</h3>
+          <ul class="ul-interests">
+            <li>Structural Analysis</li>
+            <li>Earthquake Engineering</li>
+            <li>Concrete Design</li>
+            <li>Steel Design</li>
+            <li>Programming</li>
+          </ul>
+        </div>
+        <div class="col s12 m7">
+          <h3>Education</h3>
+          <ul class="ul-education fa-ul">
+            <li>
+              <i class="fa-li fa fa-graduation-cap"></i>
+              <div class="description">
+                <p class="course">MASc in Structural Engineering, 2017</p>
+                <p class="institution">University of British Columbia</p>
+              </div>
+            </li>
+            <li>
+              <i class="fa-li fa fa-graduation-cap"></i>
+              <div class="description">
+                <p class="course">BASc in Civil Engineering, 2013</p>
+                <p class="institution">University of British Columbia</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 {{ end }}

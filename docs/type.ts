@@ -18,11 +18,12 @@ type Award = {
   name: string;
   title: string;
   authors: string;
-  journal: string;
+  booktitle: string;
   date: string;
   links: {
     slides?: string;
     video?: string;
     pdf?: string;
+    github?: string;
   };
 };

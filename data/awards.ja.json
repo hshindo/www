@@ -1,116 +1,188 @@
-[
-  {
-    "awardName": "自然言語処理研究会（NL） 優秀研究賞",
-    "title": "意味役割付与のためのスパン選択モデル",
-    "organization": "情報処理学会",
-    "year": "2018"
-  },
-  {
-    "awardName": "Human-Computer Question Answering Competition Winner",
-    "title": "Studio Ousia's Quiz Bowl Question Answering System at NIPS HCQA 2017",
-    "organization": "NIPS",
-    "year": "2017",
-    "slides": "/data/qb2.pdf",
-    "video": "https://www.youtube.com/watch?v=Yq5NMcPc9hM"
-  },
-  {
-    "awardName": "Human-Computer Question Answering Competition Winner",
-    "title": "Studio Ousia's Quiz Bowl Question Answering System at NIPS HCQA 2017",
-    "organization": "NIPS",
-    "year": "2017",
-    "slides": "/data/qb2.pdf",
-    "video": "https://www.youtube.com/watch?v=Yq5NMcPc9hM"
-  },
-  {
-    "awardName": "自然言語処理研究会（NL） 優秀研究賞",
-    "title": "意味役割付与における未知分野へのニューラル分野適応技術",
-    "organization": "情報処理学会",
-    "year": "2017"
-  },
-  {
-    "awardName": "自然言語処理研究会（NL） 優秀研究賞",
-    "title": "アラビア語の高粒度な品詞タグ付けのための辞書情報を活用した形態統語的カテゴリの同時予測",
-    "organization": "情報処理学会",
-    "year": "2017",
-    "slides": "https://www.slideshare.net/GoInoue/ss-78086940"
-  },
-  {
-    "awardName": "自然言語処理研究会（NL） 優秀研究賞",
-    "title": "遷移型句構造解析に基づく論文PDF中の数式XML解析",
-    "organization": "情報処理学会",
-    "year": "2017",
-    "slides": "https://www.slideshare.net/YuichiroSawai/pdfxml"
-  },
-  {
-    "awardName": "言語資源賞",
-    "title": "PDFAnno: PDFドキュメントのための言語アノテーションツール",
-    "organization": "言語処理学会",
-    "year": "2017",
-    "github": "https://github.com/paperai/pdfanno"
-  },
-  {
-    "awardName": "人工知能学会 全国大会（JSAI2016）優秀賞",
-    "title": "Julia言語による深層学習ライブラリの実装と評価と自然言語処理への応用",
-    "organization": "人工知能学会",
-    "year": "2017"
-  },
-  {
-    "awardName": "WSDM Cup (Triple Scoring Task) 準優勝",
-    "title": "Ensemble of Neural Classifiers for Scoring Knowledge Base Triples",
-    "organization": "ACM WSDM",
-    "year": "2017"
-  },
-  {
-    "awardName": "自然言語処理研究会（NL） 優秀研究賞",
-    "title": "深層リカレントニューラルネットワークを用いた日本語述語項構造解析",
-    "organization": "情報処理学会",
-    "year": "2016"
-  },
-  {
-    "awardName": "山下記念賞",
-    "title": "畳み込みニューラルネットワークを用いた複単語表現の解析",
-    "organization": "情報処理学会",
-    "year": "2016"
-  },
-  {
-    "awardName": "NLP若手の会 (YANS) 第11回シンポジウム デモ賞",
-    "title": "JukaiNLP: 深層学習によるリアルタイム言語解析システム",
-    "organization": "NLP若手の会",
-    "year": "2016"
-  },
-  {
-    "awardName": "自然言語処理研究会（NL） 優秀研究賞",
-    "title": "畳み込みニューラルネットワークを用いた複単語表現の解析",
-    "organization": "情報処理学会",
-    "year": "2015"
-  },
-  {
-    "awardName": "研究会推薦博士論文",
-    "title": "Statistical Induction of Tree-Generating Grammars for Natural Language Parsing",
-    "organization": "情報処理学会",
-    "year": "2014"
-  },
-  {
-    "awardName": "コンピュータサイエンス領域奨励賞",
-    "title": "Pitman-Yor過程に基づく確率的木挿入文法モデル",
-    "organization": "情報処理学会",
-    "year": "2013"
-  },
-  {
-    "awardName": "Best Paper Award",
-    "title": "Bayesian Symbol-Refined Tree Substitution Grammars for Syntactic Parsing",
-    "organization": "The Association for Computational Linguistics (ACL)",
-    "year": "2012"
-  },
-  {
-    "awardName": "最優秀賞",
-    "title": "シンボル細分化を適用した階層Pitman-Yor過程に基づく木置換文法獲得法と構文解析への応用",
-    "organization": "言語処理学会第18回年次大会",
-    "year": "2012"
-  },
-  {
-    "awardName": "奈良先端科学技術大学院大学 トップ奨学生",
-    "organization": "奈良先端科学技術大学院大学",
-    "year": "2012"
-  }
-]
+{
+  "awards": [
+    {
+      "name": "自然言語処理研究会（NL） 優秀研究賞",
+      "title": "意味役割付与のためのスパン選択モデル",
+      "authors": [],
+      "booktitle": "情報処理学会",
+      "date": "2018",
+      "links": {}
+    },
+    {
+      "name": "Human-Computer Question Answering Competition Winner",
+      "title": "Studio Ousia's Quiz Bowl Question Answering System at NIPS HCQA 2017",
+      "authors": [],
+      "booktitle": "NIPS",
+      "date": "2017",
+      "links": {
+        "slides": "/data/qb2.pdf",
+        "video": "https://www.youtube.com/watch?v=Yq5NMcPc9hM"
+      }
+    },
+    {
+      "name": "Human-Computer Question Answering Competition Winner",
+      "title": "Studio Ousia's Quiz Bowl Question Answering System at NIPS HCQA 2017",
+      "authors": [],
+      "booktitle": "NIPS",
+      "date": "2017",
+      "links": {
+        "slides": "/data/qb2.pdf",
+        "video": "https://www.youtube.com/watch?v=Yq5NMcPc9hM"
+      }
+    },
+    {
+      "name": "自然言語処理研究会（NL） 優秀研究賞",
+      "title": "意味役割付与における未知分野へのニューラル分野適応技術",
+      "authors": [],
+      "booktitle": "情報処理学会",
+      "date": "2017",
+      "links": {}
+    },
+    {
+      "name": "自然言語処理研究会（NL） 優秀研究賞",
+      "title": "アラビア語の高粒度な品詞タグ付けのための辞書情報を活用した形態統語的カテゴリの同時予測",
+      "authors": [],
+      "booktitle": "情報処理学会",
+      "date": "2017",
+      "links": { "slides": "https://www.slideshare.net/GoInoue/ss-78086940" }
+    },
+    {
+      "name": "自然言語処理研究会（NL） 優秀研究賞",
+      "title": "遷移型句構造解析に基づく論文PDF中の数式XML解析",
+      "authors": [],
+      "booktitle": "情報処理学会",
+      "date": "2017",
+      "links": { "slides": "https://www.slideshare.net/YuichiroSawai/pdfxml" }
+    },
+    {
+      "name": "言語資源賞",
+      "title": "PDFAnno: PDFドキュメントのための言語アノテーションツール",
+      "authors": [],
+      "booktitle": "言語処理学会",
+      "date": "2017",
+      "links": { "github": "https://github.com/paperai/pdfanno" }
+    },
+    {
+      "name": "人工知能学会 全国大会（JSAI2016）優秀賞",
+      "title": "Julia言語による深層学習ライブラリの実装と評価と自然言語処理への応用",
+      "authors": [],
+      "booktitle": "人工知能学会",
+      "date": "2017",
+      "links": {}
+    },
+    {
+      "name": "WSDM Cup (Triple Scoring Task) 準優勝",
+      "title": "Ensemble of Neural Classifiers for Scoring Knowledge Base Triples",
+      "authors": [],
+      "booktitle": "ACM WSDM",
+      "date": "2017",
+      "links": {}
+    },
+    {
+      "name": "自然言語処理研究会（NL） 優秀研究賞",
+      "title": "深層リカレントニューラルネットワークを用いた日本語述語項構造解析",
+      "authors": [],
+      "booktitle": "情報処理学会",
+      "date": "2016",
+      "links": {}
+    },
+    {
+      "name": "山下記念賞",
+      "title": "畳み込みニューラルネットワークを用いた複単語表現の解析",
+      "authors": [],
+      "booktitle": "情報処理学会",
+      "date": "2016",
+      "links": {}
+    },
+    {
+      "name": "NLP若手の会 (YANS) 第11回シンポジウム デモ賞",
+      "title": "JukaiNLP: 深層学習によるリアルタイム言語解析システム",
+      "authors": [],
+      "booktitle": "NLP若手の会",
+      "date": "2016",
+      "links": {}
+    },
+    {
+      "name": "自然言語処理研究会（NL） 優秀研究賞",
+      "title": "畳み込みニューラルネットワークを用いた複単語表現の解析",
+      "authors": [],
+      "booktitle": "情報処理学会",
+      "date": "2015",
+      "links": {}
+    },
+    {
+      "name": "研究会推薦博士論文",
+      "title": "Statistical Induction of Tree-Generating Grammars for Natural Language Parsing",
+      "authors": [],
+      "booktitle": "情報処理学会",
+      "date": "2014",
+      "links": {}
+    },
+    {
+      "name": "コンピュータサイエンス領域奨励賞",
+      "title": "Pitman-Yor過程に基づく確率的木挿入文法モデル",
+      "authors": [],
+      "booktitle": "情報処理学会",
+      "date": "2013",
+      "links": {}
+    },
+    {
+      "name": "Best Paper Award",
+      "title": "Bayesian Symbol-Refined Tree Substitution Grammars for Syntactic Parsing",
+      "authors": [],
+      "booktitle": "The Association for Computational Linguistics (ACL)",
+      "date": "2012",
+      "links": {}
+    },
+    {
+      "name": "最優秀賞",
+      "title": "シンボル細分化を適用した階層Pitman-Yor過程に基づく木置換文法獲得法と構文解析への応用",
+      "authors": [],
+      "booktitle": "言語処理学会第18回年次大会",
+      "date": "2012",
+      "links": {}
+    },
+    {
+      "name": "奈良先端科学技術大学院大学 トップ奨学生",
+      "title": "",
+      "authors": [],
+      "booktitle": "奈良先端科学技術大学院大学",
+      "date": "2012",
+      "links": {}
+    }
+  ],
+  "awardsStudents": [
+    {
+      "name": "言語処理学会第24回年次大会 若手奨励賞",
+      "title": "自然言語処理における解釈可能な敵対的摂動の学習",
+      "authors": ["佐藤 元紀"],
+      "booktitle": "",
+      "date": "2018",
+      "links": {}
+    },
+    {
+      "name": "言語処理学会第23回年次大会 若手奨励賞",
+      "title": "文書全体を考慮したニューラル文間ゼロ照応解析モデル",
+      "authors": ["大内 啓樹"],
+      "booktitle": "",
+      "date": "2017",
+      "links": {}
+    },
+    {
+      "name": "第14回日本データベース学会年次大会 学生プレゼンテーション賞",
+      "title": "大規模な単語活用辞書を用いた英単語の見出し語化",
+      "authors": ["駒井 雅之"],
+      "booktitle": "",
+      "date": "2016",
+      "links": {}
+    },
+    {
+      "name": "自然言語処理研究会（NL） 学生奨励賞, 情報処理学会",
+      "title": "Abstract Meaning Representationを用いた名詞句の意味構造解析",
+      "authors": ["澤井 裕一郎"],
+      "booktitle": "",
+      "date": "2015",
+      "links": {}
+    }
+  ]
+}

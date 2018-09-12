@@ -27,15 +27,9 @@
       {{ partial "header" . }}
     {{ end }}
 
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-          {{ block "main" . }}
-            <!-- The part of the page that begins to differ between templates -->
-          {{ end }}
-        </div>
-      </div>
-    </div>
+    {{ block "main" . }}
+      <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
 
     {{ block "footer" . }}
       {{ partial "footer" . }}

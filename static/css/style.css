@@ -4,6 +4,10 @@
     'sans-serif' /* default */;
 }
 
+body {
+  background: #fafafa;
+}
+
 h1 {
   font-size: 3rem;
 }
@@ -15,14 +19,6 @@ h3 {
 
 .brand-logo {
   white-space: nowrap;
-}
-
-#background-filler {
-  background: #fafafa;
-  min-height: calc(100vh - 64px);
-  position: absolute;
-  width: 100%;
-  z-index: -1;
 }
 
 #homepage.container {

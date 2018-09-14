@@ -10,7 +10,7 @@
       <!-- authors -->
       <div class="line-container">
         <div class="icon-column">
-          <i class="far fa-user-circle fa-lg"></i>
+          <i class="far fa-user-circle"></i>
         </div>
         <div class="authors">
           {{ range .authors }}
@@ -22,10 +22,10 @@
       <!-- booktitle and date -->
       <div class="line-container">
         <div class="icon-column">
-          <i class="fas fa-book fa-lg"></i>
+          <i class="fas fa-book"></i>
         </div>
         {{ with .links.booktitle }}<a href="{{ . }}" target="_blank">{{ end }}
-        <div>
+        <div class="booktitle">
           {{- .booktitle -}}
           {{- with .date -}}, {{.}}{{- end -}}
         </div>
@@ -37,7 +37,7 @@
         {{ if or (isset . "slides") (isset . "video") (isset . "pdf") (isset . "bibtex") }}
           <div class="line-container">
             <div class="icon-column">
-              <i class="fas fa-paperclip fa-lg"></i>
+              <i class="fas fa-paperclip"></i>
             </div>
             {{ range $key, $value := .}}
               <!-- ignore `title` and `booktitle` -->

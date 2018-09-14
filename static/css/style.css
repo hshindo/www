@@ -301,14 +301,8 @@ footer .footer-content {
 
 #awards .line-container .icon-column {
   flex: 0 0 auto;
-  text-align: center;
   margin-right: 16px;
-  width: 28px;
-}
-
-#awards .line-container:first-child .icon-column i {
-  color: #ea6359;
-  font-size: 38px;
+  width: 14px;
 }
 
 #awards .card {
@@ -321,11 +315,12 @@ footer .footer-content {
 
 #awards .card .fas,
 #awards .card .far {
-  color: #666;
+  color: #5a76d6;
 }
 
 #awards .card .award-name {
   font-weight: bold;
+  margin-bottom: 8px;
 }
 
 #awards .card .authors {

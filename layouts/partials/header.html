@@ -37,35 +37,45 @@
     </li>
 {{ end }}
 
-<nav class="white" role="navigation">
-    <div class="row">
-        <div class="col s12 l10 offset-l1">
-            <!-- Hamburger menu -->
-            <a href="#" data-activates="nav-mobile" class="button-collapse black-text">
-                <i class="material-icons">menu</i>
-            </a>
+<div class="navbar-fixed">
+    <nav class="white" role="navigation">
+        <div class="row">
+            <div class="col s12 l10 offset-l1">
+                <!-- Hamburger menu -->
+                <a href="#" data-activates="nav-mobile" class="button-collapse black-text">
+                    <i class="material-icons">menu</i>
+                </a>
 
-            <!-- Mobile sidenav -->
-            <ul id="nav-mobile" class="side-nav">
-                {{ $.Scratch.Set "id" "dropdown-header-mobile" }}
-                {{ block "nav-menu" . }}{{ end }}
-                {{ $.Scratch.Delete "id" }}
-            </ul>
+                <!-- Brand -->
+                <a href="{{ .Site.BaseURL | relLangURL }}" class="brand-logo grey-text text-darken-3">{{ .Site.Title }}</a>
 
-            <!-- Brand -->
-            <a href="{{ .Site.BaseURL | relLangURL }}" class="brand-logo grey-text text-darken-3">{{ .Site.Title }}</a>
+                <!-- Navigation container -->
+                <div class="nav-wrapper">
 
-            <!-- Navigation container -->
-            <div class="nav-wrapper">
+                    <!-- Menu -->
+                    <ul class="right hide-on-med-and-down">
+                        {{ $.Scratch.Set "id" "dropdown-header-desktop" }}
+                        {{ block "nav-menu" . }}{{ end }}
+                        {{ $.Scratch.Delete "id" }}
+                    </ul>
 
-                <!-- Menu -->
-                <ul class="right hide-on-med-and-down">
-                    {{ $.Scratch.Set "id" "dropdown-header-desktop" }}
-                    {{ block "nav-menu" . }}{{ end }}
-                    {{ $.Scratch.Delete "id" }}
-                </ul>
-
+                </div>
             </div>
         </div>
-    </div>
-</nav>
+    </nav>
+</div>
+
+<!--
+    Mobile sidenav
+
+    when using fixed navbar, mobile menu should be outside of the `div.navbar-fixed`.
+    otherwise, mobile drawer is covered under the modal overlay and
+    users can't intaract with the drawer.
+
+    see: https://github.com/Dogfalo/materialize/issues/1664#issuecomment-285730639
+-->
+<ul id="nav-mobile" class="side-nav">
+    {{ $.Scratch.Set "id" "dropdown-header-mobile" }}
+    {{ block "nav-menu" . }}{{ end }}
+    {{ $.Scratch.Delete "id" }}
+</ul>

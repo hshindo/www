@@ -3,7 +3,7 @@
     <div class="card-content">
 
       <!-- title -->
-      {{ with .links.title }}<a href="{{ . }}">{{ end }}
+      {{ with .links.title }}<a href="{{ . }}" target="_blank">{{ end }}
       <div class="title">{{ .title }}</div>
       {{ with .links.title }}</a>{{ end }}
 
@@ -24,7 +24,7 @@
         <div class="icon-column">
           <i class="fas fa-book fa-lg"></i>
         </div>
-        {{ with .links.booktitle }}<a href="{{ . }}">{{ end }}
+        {{ with .links.booktitle }}<a href="{{ . }}" target="_blank">{{ end }}
         <div>{{ .booktitle }}</div>
         {{ with .links.booktitle }}</a>{{ end }}
       </div>
@@ -47,7 +47,7 @@
             {{ range $key, $value := .}}
               <!-- ignore `title` and `booktitle` -->
               {{ if and (ne $key "title") (ne $key "booktitle") }}
-                <a href="{{ $value }}" class="attachment">{{ $key }}</a>
+                <a href="{{ $value }}" class="attachment" target="_blank">{{ $key }}</a>
               {{ end }}
             {{end}}
           </div>

@@ -104,6 +104,15 @@ footer .footer-content {
   padding-top: 50px;
 }
 
+#publications h1 {
+  font-size: 2rem;
+  margin: 50px 0 24px;
+}
+
+#publications h1:first-child {
+  margin: 0 0 24px;
+}
+
 #publications a {
   color: inherit;
   text-decoration: underline solid rgba(0, 0, 0, 0.2);
@@ -124,6 +133,10 @@ footer .footer-content {
   flex: 0 0 auto;
 }
 
+#publications .card {
+  margin-bottom: 20px;
+}
+
 #publications .card .fas,
 .far {
   color: #5a76d6;
@@ -131,7 +144,6 @@ footer .footer-content {
 
 #publications .card .title {
   font-weight: bold;
-  font-size: 1.2rem;
   margin-bottom: 16px;
 }
 

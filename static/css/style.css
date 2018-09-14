@@ -141,6 +141,38 @@ footer .footer-content {
 }
 
 /*
+ * news-item (for single news page)
+ */
+
+#news-item {
+  padding-top: 50px;
+}
+
+#news-item h1 {
+  font-size: 2rem;
+  margin: 0 0 24px;
+}
+
+#news-item .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+#news-item .date {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 16px;
+}
+
+#news-item .date i {
+  margin-right: 8px;
+}
+
+#news-item .content {
+  margin-top: 16px;
+}
+
+/*
  * publications
  */
 

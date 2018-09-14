@@ -1,0 +1,88 @@
+{{ define "card" }}
+  <div class="card">
+    <div class="card-content">
+
+      <!-- title -->
+      {{ with .links.title }}<a href="{{ . }}">{{ end }}
+      <div class="title">{{ .title }}</div>
+      {{ with .links.title }}</a>{{ end }}
+
+      <!-- authors -->
+      <div class="line-container">
+        <div class="icon-column">
+          <i class="far fa-user-circle fa-lg"></i>
+        </div>
+        <div class="authors">
+          {{ range .authors }}
+            <div class="author">{{ . }}</div>
+          {{ end }}
+        </div>
+      </div>
+
+      <!-- booktitle -->
+      <div class="line-container">
+        <div class="icon-column">
+          <i class="fas fa-book fa-lg"></i>
+        </div>
+        {{ with .links.booktitle }}<a href="{{ . }}">{{ end }}
+        <div>{{ .booktitle }}</div>
+        {{ with .links.booktitle }}</a>{{ end }}
+      </div>
+
+      <!-- date -->
+      <div class="line-container">
+        <div class="icon-column">
+          <i class="far fa-calendar-alt fa-lg"></i>
+        </div>
+        <div>{{ .date }}</div>
+      </div>
+
+      <!-- links -->
+      {{ with .links }}
+        {{ if or (isset . "slides") (isset . "video") (isset . "pdf") (isset . "bibtex") }}
+          <div class="line-container">
+            <div class="icon-column">
+              <i class="fas fa-paperclip fa-lg"></i>
+            </div>
+            {{ range $key, $value := .}}
+              <!-- ignore `title` and `booktitle` -->
+              {{ if and (ne $key "title") (ne $key "booktitle") }}
+                <a href="{{ $value }}" class="attachment">{{ $key }}</a>
+              {{ end }}
+            {{end}}
+          </div>
+        {{ end }}
+      {{ end }}
+
+    </div>
+  </div>
+{{ end }}
+
+{{ define "main" }}
+  <!-- layout for `/publications/` -->
+
+  <div id="publications" class="container">
+    <div class="row">
+      <div class="col s12 l8 offset-l2">
+        <h1>{{ i18n "publications" }}</h1>
+
+        <!-- $jsonFileName becomes like `publications.ja` -->
+        {{ $jsonFileName := (printf "%s.%s" "publications" .Lang) }}
+
+        <!--
+          load $.Site.Data.`publications.ja` or $.Site.Data.`publications.en`
+
+          In Go templates, you can’t access array, slice, or map elements directly.
+          e.g. $.Site.Data['publications.ja'] is not supported.
+          SEE: https://gohugo.io/functions/index-function/
+        -->
+        {{ range $key, $value := index $.Site.Data $jsonFileName }}
+          <h2>{{ i18n $key }}</h2>
+          {{ range $value }}
+            {{ block "card" . }}{{ end }}
+          {{end}}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}

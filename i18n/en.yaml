@@ -1,4 +1,14 @@
+# news
+
 - id: news
   translation: News
 - id: past_news
   translation: Past News
+
+# publications
+- id: publications
+  translation: Publications
+- id: papers
+  translation: Papers
+- id: conferences
+  translation: Conferences

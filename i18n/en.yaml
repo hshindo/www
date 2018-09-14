@@ -12,3 +12,7 @@
   translation: Papers
 - id: conferences
   translation: Conferences
+
+# contact
+- id: contact
+  translation: Contact

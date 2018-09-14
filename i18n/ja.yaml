@@ -18,3 +18,7 @@
   translation: 研究会・全国大会
 - id: others
   translation: 招待講演、その他
+
+# contact
+- id: contact
+  translation: 問い合わせ

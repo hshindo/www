@@ -21,7 +21,7 @@
           </div>
           <div class="authors">
             {{ range . }}
-              <div class="author">{{ . }}</div>
+              <div class="author">{{ safeHTML . }}</div>
             {{ end }}
           </div>
         </div>

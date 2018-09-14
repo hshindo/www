@@ -19,6 +19,12 @@
 - id: others
   translation: 招待講演、その他
 
+# awards
+- id: awards
+  translation: 受賞
+- id: awardsStudents
+  translation: 指導学生の受賞
+
 # contact
 - id: contact
   translation: 問い合わせ

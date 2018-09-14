@@ -1,0 +1,109 @@
+{{ define "card" }}
+  <div class="card">
+    <div class="card-content">
+
+      <!-- awardName -->
+      <div class="line-container">
+        <div class="icon-column">
+          <i class="fas fa-award fa-2x"></i>
+        </div>
+        <div class="award-name">{{ .name }}</div>
+      </div>
+
+      <!-- title -->
+      <div class="line-container">
+        <div class="icon-column">
+          <i class="fas fa-pen-nib"></i>
+        </div>
+        <div class="title">{{ .title }}</div>
+      </div>
+
+      <!-- authors -->
+      {{ with .authors }}
+        <div class="line-container">
+          <div class="icon-column">
+            <i class="far fa-user-circle"></i>
+          </div>
+          <div class="authors">
+            {{ range . }}
+              <div class="author">{{ . }}</div>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+
+      <!-- booktitle and date -->
+      <div class="line-container">
+        <div class="icon-column">
+          <i class="fas fa-book"></i>
+        </div>
+        {{ with .links.booktitle }}<a href="{{ . }}" target="_blank">{{ end }}
+        <div class="booktitle">
+          {{- .booktitle -}}
+          {{- with .date -}}, {{.}}{{- end -}}
+        </div>
+        {{ with .links.booktitle }}</a>{{ end }}
+      </div>
+
+      <!-- links -->
+      {{ with .links }}
+        {{ if or (isset . "slides") (isset . "video") (isset . "pdf") (isset . "github") }}
+          <div class="line-container">
+            <div class="icon-column">
+              <i class="fas fa-paperclip"></i>
+            </div>
+            {{ range $key, $value := .}}
+              <a href="{{ $value }}" class="attachment" target="_blank">{{ $key }}</a>
+            {{end}}
+          </div>
+        {{ end }}
+      {{ end }}
+
+    </div>
+  </div>
+{{ end }}
+
+{{ define "main" }}
+  <!-- layout for `/awards/` -->
+
+  <div id="awards" class="container">
+    <div class="row">
+      <div class="col s12 l8 offset-l2">
+        <!--
+          the first line's `$jsonFileName` becomes like `publications.(ja|en)`.
+          and the second line loads $.Site.Data.`publications.(ja|en))`.
+
+          In Go templates, you can’t access array, slice, or map elements directly.
+          e.g. $.Site.Data['publications.ja'] is not supported.
+          SEE: https://gohugo.io/functions/index-function/
+
+          TODO: update $jsonFileName when `awards.en.json` is available
+        -->
+        {{ $jsonFileName := "awards.ja" }}
+        {{ $json := index $.Site.Data $jsonFileName }}
+
+        <!--
+          the following code breaks the DRY principle
+          because Hugo can't hold JSON key orders
+        -->
+
+        <!-- awards -->
+        {{ with (index $json "awards") }}
+          <h1>{{ i18n "awards" }}</h1>
+          {{ range . }}
+            {{ block "card" . }}{{ end }}
+          {{ end }}
+        {{end}}
+
+        <!-- awards of students -->
+        {{ with (index $json "awardsStudents") }}
+          <h1>{{ i18n "awardsStudents" }}</h1>
+          {{ range . }}
+            {{ block "card" . }}{{ end }}
+          {{ end }}
+        {{end}}
+
+      </div>
+    </div>
+  </div>
+{{ end }}

@@ -251,6 +251,97 @@ footer .footer-content {
 }
 
 /*
+ * awards
+ */
+
+#awards {
+  padding-top: 50px;
+}
+
+#awards h1 {
+  font-size: 2rem;
+  margin: 50px 0 24px;
+}
+
+#awards h1:first-child {
+  margin: 0 0 24px;
+}
+
+#awards a {
+  color: inherit;
+  text-decoration: underline solid rgba(0, 0, 0, 0.2);
+}
+
+#awards a:hover {
+  text-decoration: underline solid rgba(0, 0, 0, 0.87);
+}
+
+#awards .title,
+#awards .author,
+#awards .booktitle,
+#awards .attachment {
+  font-size: 0.85rem;
+}
+
+#awards .line-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+#awards .line-container:last-child {
+  margin-bottom: 0;
+}
+
+#awards .line-container .icon-column {
+  flex: 0 0 auto;
+  text-align: center;
+  margin-right: 16px;
+  width: 28px;
+}
+
+#awards .line-container:first-child .icon-column i {
+  color: #ea6359;
+  font-size: 38px;
+}
+
+#awards .card {
+  margin-bottom: 12px;
+}
+
+#awards .card .card-content {
+  padding: 8px 24px;
+}
+
+#awards .card .fas,
+#awards .card .far {
+  color: #666;
+}
+
+#awards .card .award-name {
+  font-weight: bold;
+}
+
+#awards .card .authors {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -8px;
+}
+
+#awards .card .author {
+  border: 1px solid #909090;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  padding: 0 10px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+#awards .card .attachment {
+  margin-right: 8px;
+}
+
+/*
  * contact
  */
 

@@ -66,22 +66,70 @@
       <div class="col s12 l8 offset-l2">
         <h1>{{ i18n "publications" }}</h1>
 
-        <!-- $jsonFileName becomes like `publications.ja` -->
-        {{ $jsonFileName := (printf "%s.%s" "publications" .Lang) }}
-
         <!--
-          load $.Site.Data.`publications.ja` or $.Site.Data.`publications.en`
+          the first line's `$jsonFileName` becomes like `publications.(ja|en)`.
+          and the second line loads $.Site.Data.`publications.(ja|en))`.
 
           In Go templates, you can’t access array, slice, or map elements directly.
           e.g. $.Site.Data['publications.ja'] is not supported.
           SEE: https://gohugo.io/functions/index-function/
         -->
-        {{ range $key, $value := index $.Site.Data $jsonFileName }}
-          <h2>{{ i18n $key }}</h2>
-          {{ range $value }}
+        {{ $jsonFileName := (printf "%s.%s" "publications" .Lang) }}
+        {{ $json := index $.Site.Data $jsonFileName }}
+
+        <!--
+          the following code breaks the DRY principle
+          because Hugo can't hold JSON key orders
+        -->
+
+        <!-- papers -->
+        {{ with (index $json "papers") }}
+          <h2>{{ i18n "papers" }}</h2>
+          {{ range . }}
             {{ block "card" . }}{{ end }}
-          {{end}}
-        {{ end }}
+          {{ end }}
+        {{end}}
+
+        <!-- conferences -->
+        {{ with (index $json "conferences") }}
+          <h2>{{ i18n "conferences" }}</h2>
+          {{ range . }}
+            {{ block "card" . }}{{ end }}
+          {{ end }}
+        {{end}}
+
+        <!-- conferencesInternational -->
+        {{ with (index $json "conferencesInternational") }}
+          <h2>{{ i18n "conferencesInternational" }}</h2>
+          {{ range . }}
+            {{ block "card" . }}{{ end }}
+          {{ end }}
+        {{end}}
+
+        <!-- conferencesDomestic -->
+        {{ with (index $json "conferencesDomestic") }}
+          <h2>{{ i18n "conferencesDomestic" }}</h2>
+          {{ range . }}
+            {{ block "card" . }}{{ end }}
+          {{ end }}
+        {{end}}
+
+        <!-- books -->
+        {{ with (index $json "books") }}
+          <h2>{{ i18n "books" }}</h2>
+          {{ range . }}
+            {{ block "card" . }}{{ end }}
+          {{ end }}
+        {{end}}
+
+        <!-- others -->
+        {{ with (index $json "others") }}
+          <h2>{{ i18n "others" }}</h2>
+          {{ range . }}
+            {{ block "card" . }}{{ end }}
+          {{ end }}
+        {{end}}
+
       </div>
     </div>
   </div>

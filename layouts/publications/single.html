@@ -19,22 +19,17 @@
         </div>
       </div>
 
-      <!-- booktitle -->
+      <!-- booktitle and date -->
       <div class="line-container">
         <div class="icon-column">
           <i class="fas fa-book fa-lg"></i>
         </div>
         {{ with .links.booktitle }}<a href="{{ . }}" target="_blank">{{ end }}
-        <div>{{ .booktitle }}</div>
-        {{ with .links.booktitle }}</a>{{ end }}
-      </div>
-
-      <!-- date -->
-      <div class="line-container">
-        <div class="icon-column">
-          <i class="far fa-calendar-alt fa-lg"></i>
+        <div>
+          {{- .booktitle -}}
+          {{- with .date -}}, {{.}}{{- end -}}
         </div>
-        <div>{{ .date }}</div>
+        {{ with .links.booktitle }}</a>{{ end }}
       </div>
 
       <!-- links -->

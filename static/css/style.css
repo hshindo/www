@@ -128,13 +128,21 @@ footer .footer-content {
   margin-bottom: 8px;
 }
 
+#publications .line-container:last-child {
+  margin-bottom: 0;
+}
+
 #publications .line-container .icon-column {
   width: 36px;
   flex: 0 0 auto;
 }
 
 #publications .card {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
+}
+
+#publications .card .card-content {
+  padding: 8px 24px;
 }
 
 #publications .card .fas,
@@ -144,7 +152,7 @@ footer .footer-content {
 
 #publications .card .title {
   font-weight: bold;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 #publications .card .authors {

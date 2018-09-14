@@ -1,3 +1,7 @@
+/*
+ * commons
+ */
+
 * {
   font-family: '游ゴシック Medium' /* win */, 'Yu Gothic Medium' /* win */,
     '游ゴシック体' /* mac */, 'YuGothic' /* mac */, 'メイリオ' /* win7 */,
@@ -20,6 +24,19 @@ h3 {
 .brand-logo {
   white-space: nowrap;
 }
+
+footer .divider {
+  max-width: 500px;
+  margin: auto;
+}
+
+footer .footer-content {
+  padding: 30px 30px;
+}
+
+/*
+ * homepage
+ */
 
 #homepage.container {
   padding-top: 50px;
@@ -79,14 +96,9 @@ h3 {
   margin-bottom: 0.5rem;
 }
 
-footer .divider {
-  max-width: 500px;
-  margin: auto;
-}
-
-footer .footer-content {
-  padding: 30px 30px;
-}
+/*
+ * publications
+ */
 
 #publications {
   padding-top: 50px;

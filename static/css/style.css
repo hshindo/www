@@ -146,7 +146,7 @@ footer .footer-content {
 }
 
 #publications .card .fas,
-.far {
+#publications .card .far {
   color: #5a76d6;
 }
 
@@ -203,7 +203,7 @@ footer .footer-content {
 }
 
 #contact .card .fas,
-.far,
-.fab {
+#contact .card .far,
+#contact .card .fab {
   color: #5a76d6;
 }

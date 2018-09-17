@@ -36,7 +36,7 @@
 
         <!-- links -->
         {{ with .links }}
-          {{ if or (isset . "slides") (isset . "video") (isset . "pdf") (isset . "bibtex") }}
+          {{ if or (isset . "slides") (isset . "video") (isset . "pdf") (isset . "bibtex") (isset . "googleSlides")}}
             <div class="line-container">
               <div class="icon-column">
                 <i class="fas fa-paperclip"></i>
@@ -44,7 +44,13 @@
               {{ range $key, $value := .}}
                 <!-- ignore `title` and `booktitle` -->
                 {{ if and (ne $key "title") (ne $key "booktitle") }}
-                  <a href="{{ $value }}" class="attachment" target="_blank">{{ $key }}</a>
+                  <!-- display specific vue component for google slides -->
+                  {{ if (eq $key "googleSlides") }}
+                    <my-google-slides src="{{ $value }}"></my-google-slides>
+                  <!-- display normal link for others -->
+                  {{ else }}
+                    <a href="{{ $value }}" class="attachment" target="_blank">{{ $key }}</a>
+                  {{ end }}
                 {{ end }}
               {{end}}
             </div>

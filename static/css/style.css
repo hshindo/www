@@ -256,6 +256,10 @@ footer .footer-content {
   margin-right: 8px;
 }
 
+#publications .modal {
+  overflow-y: hidden; /* to hide the annoying vertical scroll bar */
+}
+
 /*
  * awards
  */

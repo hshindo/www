@@ -16,7 +16,7 @@
         <div class="icon-column">
           <i class="fas fa-pen-nib"></i>
         </div>
-        <div class="title">{{ .title }}</div>
+        <div class="contents-column title">{{ .title }}</div>
       </div>
 
       <!-- authors -->
@@ -25,7 +25,7 @@
           <div class="icon-column">
             <i class="far fa-user-circle"></i>
           </div>
-          <div class="authors">
+          <div class="contents-column authors">
             {{ range . }}
               <div class="author">{{ safeHTML . }}</div>
             {{ end }}
@@ -38,12 +38,12 @@
         <div class="icon-column">
           <i class="fas fa-book"></i>
         </div>
-        {{ with .links.booktitle }}<a href="{{ . }}" target="_blank">{{ end }}
-        <div class="booktitle">
+        <div class="contents-column booktitle">
+          {{ with .links.booktitle }}<a href="{{ . }}" target="_blank">{{ end }}
           {{- .booktitle -}}
           {{- with .date -}}, {{.}}{{- end -}}
+          {{ with .links.booktitle }}</a>{{ end }}
         </div>
-        {{ with .links.booktitle }}</a>{{ end }}
       </div>
 
       <!-- links -->
@@ -53,9 +53,11 @@
             <div class="icon-column">
               <i class="fas fa-paperclip"></i>
             </div>
-            {{ range $key, $value := .}}
-              <a href="{{ $value }}" class="attachment" target="_blank">{{ $key }}</a>
-            {{end}}
+            <div class="contents-column links">
+              {{ range $key, $value := .}}
+                <div><a href="{{ $value }}" target="_blank">{{ $key }}</a></div>
+              {{end}}
+            </div>
           </div>
         {{ end }}
       {{ end }}

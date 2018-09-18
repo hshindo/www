@@ -18,7 +18,7 @@
         <div class="icon-column">
           <i class="far fa-user-circle"></i>
         </div>
-        <div class="authors">
+        <div class="contents-column authors">
           {{ range .authors }}
             <div class="author">{{ safeHTML . }}</div>
           {{ end }}
@@ -31,7 +31,7 @@
           <i class="fas fa-book"></i>
         </div>
         {{ with .links.booktitle }}<a href="{{ . }}" target="_blank">{{ end }}
-        <div class="booktitle">
+        <div class="contents-column booktitle">
           {{- .booktitle -}}
           {{- with .date -}}, {{.}}{{- end -}}
         </div>
@@ -40,23 +40,27 @@
 
       <!-- links -->
       {{ with .links }}
-        {{ if or (isset . "slides") (isset . "video") (isset . "pdf") (isset . "bibtex") (isset . "googleSlides")}}
+        {{ if or (isset . "slides") (isset . "video") (isset . "pdf") (isset . "bibtex") (isset . "googleSlides") (isset . "googleSlidesInline") }}
           <div class="line-container">
             <div class="icon-column">
               <i class="fas fa-paperclip"></i>
             </div>
-            {{ range $key, $value := .}}
-              <!-- ignore `title` and `booktitle` -->
-              {{ if and (ne $key "title") (ne $key "booktitle") }}
-                <!-- display specific vue component for google slides -->
-                {{ if (eq $key "googleSlides") }}
-                  <my-google-slides src="{{ $value }}"></my-google-slides>
-                <!-- display normal link for others -->
-                {{ else }}
-                  <a href="{{ $value }}" class="attachment" target="_blank">{{ $key }}</a>
+            <div class="contents-column links">
+              {{ range $key, $value := .}}
+                <!-- ignore `title` and `booktitle` -->
+                {{ if and (ne $key "title") (ne $key "booktitle") }}
+                  <!-- display specific vue component for google slides -->
+                  {{ if (eq $key "googleSlides") }}
+                    <my-google-slides src="{{ $value }}"></my-google-slides>
+                  {{ else if (eq $key "googleSlidesInline") }}
+                    <my-google-slides-inline src="{{ $value }}"></my-google-slides-inline>
+                  <!-- display normal link for others -->
+                  {{ else }}
+                    <div><a href="{{ $value }}" target="_blank">{{ $key }}</a></div>
+                  {{ end }}
                 {{ end }}
               {{ end }}
-            {{end}}
+            </div>
           </div>
         {{ end }}
       {{ end }}

@@ -213,9 +213,14 @@ footer .footer-content {
 }
 
 #publications .line-container .icon-column {
+  align-self: flex-start;
   flex: 0 0 auto;
   margin-right: 16px;
   width: 14px;
+}
+
+#publications .line-container .contents-column {
+  flex: 1 0 0;
 }
 
 #publications .card {
@@ -252,12 +257,12 @@ footer .footer-content {
 }
 
 #publications .card .booktitle,
-#publications .card .attachment {
+#publications .card .links {
   font-size: 0.85rem;
 }
 
-#publications .card .attachment {
-  margin-right: 8px;
+#publications .card .links i {
+  color: gray;
 }
 
 #publications .modal {

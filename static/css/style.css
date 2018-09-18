@@ -223,10 +223,6 @@ footer .footer-content {
   flex: 1 0 0;
 }
 
-#publications .card {
-  margin-bottom: 12px;
-}
-
 #publications .card .card-content {
   padding: 8px 24px;
 }
@@ -325,10 +321,6 @@ footer .footer-content {
 
 #awards .line-container .contents-column {
   flex: 1 0 0;
-}
-
-#awards .card {
-  margin-bottom: 12px;
 }
 
 #awards .card .card-content {

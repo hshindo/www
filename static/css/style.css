@@ -241,7 +241,7 @@ footer .footer-content {
   margin-bottom: 8px;
 }
 
-#publications .card .authors {
+#publications .card .authors .contents-column {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -8px;
@@ -256,12 +256,12 @@ footer .footer-content {
   margin-bottom: 8px;
 }
 
-#publications .card .booktitle,
-#publications .card .links {
+#publications .card .booktitle .contents-column,
+#publications .card .links .contents-column {
   font-size: 0.85rem;
 }
 
-#publications .card .links i {
+#publications .card .links .contents-column i {
   color: gray;
 }
 
@@ -295,10 +295,10 @@ footer .footer-content {
   text-decoration: underline solid rgba(0, 0, 0, 0.87);
 }
 
-#awards .title,
-#awards .author,
-#awards .booktitle,
-#awards .links {
+#awards .title .contents-column,
+#awards .authors .contents-column,
+#awards .booktitle .contents-column,
+#awards .links .contents-column {
   font-size: 0.85rem;
 }
 
@@ -345,7 +345,7 @@ footer .footer-content {
   margin-bottom: 8px;
 }
 
-#awards .card .authors {
+#awards .card .authors .contents-column {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -8px;

@@ -204,8 +204,12 @@ footer .footer-content {
   margin-bottom: 8px;
 }
 
-#publications .line-container:last-child {
+#publications .line-container:last-of-type {
   margin-bottom: 0;
+}
+
+#publications .divider {
+  margin: 0 24px;
 }
 
 #publications .line-container .icon-column {
@@ -299,8 +303,12 @@ footer .footer-content {
   margin-bottom: 4px;
 }
 
-#awards .line-container:last-child {
+#awards .line-container:last-of-type {
   margin-bottom: 0;
+}
+
+#awards .divider {
+  margin: 0 24px;
 }
 
 #awards .line-container .icon-column {

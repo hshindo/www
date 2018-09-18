@@ -1,64 +1,68 @@
 {{ define "card" }}
   {{ $index := .index}}
   {{ with .value }}
-    <div class="card">
-      <div class="card-content">
 
-        <!-- title -->
-        {{ with .links.title }}<a href="{{ . }}" target="_blank">{{ end }}
-        <div class="title">{{ add $index 1 }}. {{ .title }}</div>
-        {{ with .links.title }}</a>{{ end }}
+    {{ if gt $index 0 }}
+      <div class="divider"></div>
+    {{ end }}
 
-        <!-- authors -->
-        <div class="line-container">
-          <div class="icon-column">
-            <i class="far fa-user-circle"></i>
-          </div>
-          <div class="authors">
-            {{ range .authors }}
-              <div class="author">{{ safeHTML . }}</div>
-            {{ end }}
-          </div>
+    <div class="card-content">
+
+      <!-- title -->
+      {{ with .links.title }}<a href="{{ . }}" target="_blank">{{ end }}
+      <div class="title">{{ add $index 1 }}. {{ .title }}</div>
+      {{ with .links.title }}</a>{{ end }}
+
+      <!-- authors -->
+      <div class="line-container">
+        <div class="icon-column">
+          <i class="far fa-user-circle"></i>
         </div>
-
-        <!-- booktitle and date -->
-        <div class="line-container">
-          <div class="icon-column">
-            <i class="fas fa-book"></i>
-          </div>
-          {{ with .links.booktitle }}<a href="{{ . }}" target="_blank">{{ end }}
-          <div class="booktitle">
-            {{- .booktitle -}}
-            {{- with .date -}}, {{.}}{{- end -}}
-          </div>
-          {{ with .links.booktitle }}</a>{{ end }}
-        </div>
-
-        <!-- links -->
-        {{ with .links }}
-          {{ if or (isset . "slides") (isset . "video") (isset . "pdf") (isset . "bibtex") (isset . "googleSlides")}}
-            <div class="line-container">
-              <div class="icon-column">
-                <i class="fas fa-paperclip"></i>
-              </div>
-              {{ range $key, $value := .}}
-                <!-- ignore `title` and `booktitle` -->
-                {{ if and (ne $key "title") (ne $key "booktitle") }}
-                  <!-- display specific vue component for google slides -->
-                  {{ if (eq $key "googleSlides") }}
-                    <my-google-slides src="{{ $value }}"></my-google-slides>
-                  <!-- display normal link for others -->
-                  {{ else }}
-                    <a href="{{ $value }}" class="attachment" target="_blank">{{ $key }}</a>
-                  {{ end }}
-                {{ end }}
-              {{end}}
-            </div>
+        <div class="authors">
+          {{ range .authors }}
+            <div class="author">{{ safeHTML . }}</div>
           {{ end }}
-        {{ end }}
-
+        </div>
       </div>
+
+      <!-- booktitle and date -->
+      <div class="line-container">
+        <div class="icon-column">
+          <i class="fas fa-book"></i>
+        </div>
+        {{ with .links.booktitle }}<a href="{{ . }}" target="_blank">{{ end }}
+        <div class="booktitle">
+          {{- .booktitle -}}
+          {{- with .date -}}, {{.}}{{- end -}}
+        </div>
+        {{ with .links.booktitle }}</a>{{ end }}
+      </div>
+
+      <!-- links -->
+      {{ with .links }}
+        {{ if or (isset . "slides") (isset . "video") (isset . "pdf") (isset . "bibtex") (isset . "googleSlides")}}
+          <div class="line-container">
+            <div class="icon-column">
+              <i class="fas fa-paperclip"></i>
+            </div>
+            {{ range $key, $value := .}}
+              <!-- ignore `title` and `booktitle` -->
+              {{ if and (ne $key "title") (ne $key "booktitle") }}
+                <!-- display specific vue component for google slides -->
+                {{ if (eq $key "googleSlides") }}
+                  <my-google-slides src="{{ $value }}"></my-google-slides>
+                <!-- display normal link for others -->
+                {{ else }}
+                  <a href="{{ $value }}" class="attachment" target="_blank">{{ $key }}</a>
+                {{ end }}
+              {{ end }}
+            {{end}}
+          </div>
+        {{ end }}
+      {{ end }}
+
     </div>
+
   {{ end }}
 {{ end }}
 
@@ -87,49 +91,61 @@
         <!-- papers -->
         {{ with (index $json "papers") }}
           <h1>{{ i18n "papers" }}</h1>
-          {{ range $index, $value := . }}
-            {{ block "card" (dict "index" $index "value" $value) }}{{ end }}
-          {{ end }}
+          <div class="card">
+            {{ range $index, $value := . }}
+              {{ block "card" (dict "index" $index "value" $value) }}{{ end }}
+            {{ end }}
+          </div>
         {{end}}
 
         <!-- conferences -->
         {{ with (index $json "conferences") }}
           <h1>{{ i18n "conferences" }}</h1>
-          {{ range $index, $value := . }}
-            {{ block "card" (dict "index" $index "value" $value) }}{{ end }}
-          {{ end }}
+          <div class="card">
+            {{ range $index, $value := . }}
+              {{ block "card" (dict "index" $index "value" $value) }}{{ end }}
+            {{ end }}
+          </div>
         {{end}}
 
         <!-- conferencesInternational -->
         {{ with (index $json "conferencesInternational") }}
           <h1>{{ i18n "conferencesInternational" }}</h1>
-          {{ range $index, $value := . }}
-            {{ block "card" (dict "index" $index "value" $value) }}{{ end }}
-          {{ end }}
+          <div class="card">
+            {{ range $index, $value := . }}
+              {{ block "card" (dict "index" $index "value" $value) }}{{ end }}
+            {{ end }}
+          </div>
         {{end}}
 
         <!-- conferencesDomestic -->
         {{ with (index $json "conferencesDomestic") }}
           <h1>{{ i18n "conferencesDomestic" }}</h1>
-          {{ range $index, $value := . }}
-            {{ block "card" (dict "index" $index "value" $value) }}{{ end }}
-          {{ end }}
+          <div class="card">
+            {{ range $index, $value := . }}
+              {{ block "card" (dict "index" $index "value" $value) }}{{ end }}
+            {{ end }}
+          </div>
         {{end}}
 
         <!-- books -->
         {{ with (index $json "books") }}
           <h1>{{ i18n "books" }}</h1>
-          {{ range $index, $value := . }}
-            {{ block "card" (dict "index" $index "value" $value) }}{{ end }}
-          {{ end }}
+          <div class="card">
+            {{ range $index, $value := . }}
+              {{ block "card" (dict "index" $index "value" $value) }}{{ end }}
+            {{ end }}
+          </div>
         {{end}}
 
         <!-- others -->
         {{ with (index $json "others") }}
           <h1>{{ i18n "others" }}</h1>
-          {{ range $index, $value := . }}
-            {{ block "card" (dict "index" $index "value" $value) }}{{ end }}
-          {{ end }}
+          <div class="card">
+            {{ range $index, $value := . }}
+              {{ block "card" (dict "index" $index "value" $value) }}{{ end }}
+            {{ end }}
+          </div>
         {{end}}
 
       </div>

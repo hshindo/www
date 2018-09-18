@@ -6,13 +6,7 @@ Vue.component('my-google-slides', {
   props: ['src'],
   template: `
   <div>
-    <!--
-      this 'a' tag is handled by the materialize.js as the trigger to display the modal.
-      'href' need to be equal to the ID of the modal.
-
-      '@click' attribute is used to set the 'isOpen' status to start loading contents.
-    -->
-    <a class="attachment modal-trigger" :href="'#' + modalId" @click="onOpen">google slides</a>
+    <a class="attachment" @click="onOpen">google slides</a>
 
     <div :id="modalId" class="modal">
       <!--

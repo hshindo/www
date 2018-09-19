@@ -239,7 +239,7 @@ footer .footer-content {
 }
 
 #publications .card .card-content {
-  padding: 8px 24px;
+  padding: 14px 24px;
 }
 
 #publications .card .fas,
@@ -250,7 +250,7 @@ footer .footer-content {
 #publications .card .title {
   font-size: 0.85rem;
   font-weight: bold;
-  margin-bottom: 16px;
+  margin-bottom: 2px;
 }
 
 #publications .card .authors .contents-column {
@@ -334,7 +334,7 @@ footer .footer-content {
 }
 
 #awards .card .card-content {
-  padding: 8px 24px;
+  padding: 14px 24px;
 }
 
 #awards .card .fas,
@@ -345,7 +345,7 @@ footer .footer-content {
 #awards .card .award-name {
   font-size: 0.85rem;
   font-weight: bold;
-  margin-bottom: 16px;
+  margin-bottom: 2px;
 }
 
 #awards .card .authors .contents-column {

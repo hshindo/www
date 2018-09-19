@@ -1,63 +1,73 @@
 {{ define "card" }}
   {{ $index := .index}}
   {{ with .value }}
-    <div class="card">
-      <div class="card-content">
 
-        <!-- awardName -->
-        <div class="award-name">{{ add $index 1 }}. {{ .name }}</div>
+    <div class="card-content">
 
-        <!-- title -->
-        <div class="line-container">
-          <div class="icon-column">
-            <i class="fas fa-pen-nib"></i>
-          </div>
-          <div class="title">{{ .title }}</div>
+      <!-- awardName -->
+      <div class="award-name"><span class="number">{{ add $index 1 }}.</span>{{ .name }}</div>
+
+      <!-- title -->
+      <div class="line-container title">
+        <div class="icon-column">
+          <i class="fas fa-pen-nib"></i>
         </div>
+        <div class="contents-column">
+          {{ with .links.title }}<a href="{{ . }}" target="_blank">{{ end }}
+          {{ .title }}
+          {{ with .links.title }}</a>{{ end }}
+        </div>
+      </div>
 
-        <!-- authors -->
-        {{ with .authors }}
-          <div class="line-container">
-            <div class="icon-column">
-              <i class="far fa-user-circle"></i>
-            </div>
-            <div class="authors">
-              {{ range . }}
-                <div class="author">{{ safeHTML . }}</div>
-              {{ end }}
-            </div>
-          </div>
-        {{ end }}
-
-        <!-- booktitle and date -->
-        <div class="line-container">
+      <!-- authors -->
+      {{ with .authors }}
+        <div class="line-container authors">
           <div class="icon-column">
-            <i class="fas fa-book"></i>
+            <i class="far fa-user-circle"></i>
           </div>
+          <div class="contents-column">
+            {{ $authorsLength := len .}}
+            {{ range $index, $author := . }}
+              <div class="author">
+                {{- safeHTML $author -}}
+                <!-- show comma between authors -->
+                {{- if ne (add $index 1) $authorsLength -}},{{- end -}}
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+
+      <!-- booktitle and date -->
+      <div class="line-container booktitle">
+        <div class="icon-column">
+          <i class="fas fa-book"></i>
+        </div>
+        <div class="contents-column">
           {{ with .links.booktitle }}<a href="{{ . }}" target="_blank">{{ end }}
-          <div class="booktitle">
-            {{- .booktitle -}}
-            {{- with .date -}}, {{.}}{{- end -}}
-          </div>
+          {{- .booktitle -}}
+          {{- with .date -}}, {{.}}{{- end -}}
           {{ with .links.booktitle }}</a>{{ end }}
         </div>
-
-        <!-- links -->
-        {{ with .links }}
-          {{ if or (isset . "slides") (isset . "video") (isset . "pdf") (isset . "github") }}
-            <div class="line-container">
-              <div class="icon-column">
-                <i class="fas fa-paperclip"></i>
-              </div>
-              {{ range $key, $value := .}}
-                <a href="{{ $value }}" class="attachment" target="_blank">{{ $key }}</a>
-              {{end}}
-            </div>
-          {{ end }}
-        {{ end }}
-
       </div>
+
+      <!-- links -->
+      {{ with .links }}
+        {{ if or (isset . "slides") (isset . "video") (isset . "pdf") (isset . "github") }}
+          <div class="line-container links">
+            <div class="icon-column">
+              <i class="fas fa-paperclip"></i>
+            </div>
+            <div class="contents-column">
+              <!-- display vue component -->
+              <links-lister :links="{{ . | jsonify }}"></links-lister>
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+
     </div>
+
   {{ end }}
 {{ end }}
 
@@ -88,17 +98,21 @@
         <!-- awards -->
         {{ with (index $json "awards") }}
           <h1>{{ i18n "awards" }}</h1>
-          {{ range $index, $value := . }}
-            {{ block "card" (dict "index" $index "value" $value) }}{{ end }}
-          {{ end }}
+          <div class="card">
+            {{ range $index, $value := . }}
+              {{ block "card" (dict "index" $index "value" $value) }}{{ end }}
+            {{ end }}
+          </div>
         {{end}}
 
         <!-- awards of students -->
         {{ with (index $json "awardsStudents") }}
           <h1>{{ i18n "awardsStudents" }}</h1>
-          {{ range $index, $value := . }}
-           {{ block "card" (dict "index" $index "value" $value) }}{{ end }}
-          {{ end }}
+          <div class="card">
+            {{ range $index, $value := . }}
+            {{ block "card" (dict "index" $index "value" $value) }}{{ end }}
+            {{ end }}
+          </div>
         {{end}}
 
       </div>

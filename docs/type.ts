@@ -7,10 +7,13 @@ type Publication = {
   links: {
     title?: string;
     booktitle?: string;
+    bibtex?: string;
+    github?: string;
+    googleSlides?: string; // embed url
+    pdf?: string;
     slides?: string;
     video?: string;
-    pdf?: string;
-    bibtex?: string;
+    youtube?: string; // embed url
   };
 };
 
@@ -21,9 +24,14 @@ type Award = {
   booktitle: string;
   date: string;
   links: {
+    title?: string;
+    booktitle?: string;
+    bibtex?: string;
+    github?: string;
+    googleSlides?: string; // embed url
+    pdf?: string;
     slides?: string;
     video?: string;
-    pdf?: string;
-    github?: string;
+    youtube?: string; // embed url
   };
 };

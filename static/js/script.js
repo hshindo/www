@@ -85,6 +85,7 @@ Vue.component('links-lister', {
       <div :style="styles.lineItem" v-if="links.googleSlides">
         <a @click="onToggle('googleSlides', $event)" href="#">google slides</a>
         <i
+          @click="onToggle('googleSlides', $event)"
           class="fas fa-caret-down"
           :style="[styles.caret, this.currentContent === 'googleSlides' && styles.caretActive]">
         </i>
@@ -93,6 +94,7 @@ Vue.component('links-lister', {
       <div :style="styles.lineItem" v-if="links.youtube">
         <a @click="onToggle('youtube', $event)" href="#">youtube</a>
         <i
+          @click="onToggle('youtube', $event)"
           class="fas fa-caret-down"
           :style="[styles.caret, this.currentContent === 'youtube' && styles.caretActive]">
         </i>

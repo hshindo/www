@@ -151,6 +151,7 @@ Vue.component('links-lister', {
         lineContainer: {
           display: 'flex',
           flexWrap: 'wrap',
+          lineHeight: '24.667px', // need to be same as the height of `icon-column`
         },
         lineItem: {
           marginRight: '12px',

@@ -217,7 +217,6 @@ footer .footer-content {
 #publications .line-container {
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
 }
 
 #publications .line-container:last-of-type {
@@ -251,22 +250,17 @@ footer .footer-content {
 #publications .card .title {
   font-size: 0.85rem;
   font-weight: bold;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 #publications .card .authors .contents-column {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: -8px;
 }
 
 #publications .card .author {
-  border: 1px solid #909090;
-  border-radius: 10px;
-  font-size: 0.8rem;
-  padding: 0 10px;
+  font-size: 0.85rem;
   margin-right: 8px;
-  margin-bottom: 8px;
 }
 
 #publications .card .booktitle .contents-column,
@@ -318,7 +312,6 @@ footer .footer-content {
 #awards .line-container {
   display: flex;
   align-items: center;
-  margin-bottom: 4px;
 }
 
 #awards .line-container:last-of-type {
@@ -352,22 +345,17 @@ footer .footer-content {
 #awards .card .award-name {
   font-size: 0.85rem;
   font-weight: bold;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 #awards .card .authors .contents-column {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: -8px;
 }
 
 #awards .card .author {
-  border: 1px solid #909090;
-  border-radius: 10px;
-  font-size: 0.8rem;
-  padding: 0 10px;
+  font-size: 0.85rem;
   margin-right: 8px;
-  margin-bottom: 8px;
 }
 
 /*

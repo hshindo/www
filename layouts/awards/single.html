@@ -26,8 +26,13 @@
             <i class="far fa-user-circle"></i>
           </div>
           <div class="contents-column">
-            {{ range . }}
-              <div class="author">{{ safeHTML . }}</div>
+            {{ $authorsLength := len .}}
+            {{ range $index, $author := . }}
+              <div class="author">
+                {{- safeHTML $author -}}
+                <!-- show comma between authors -->
+                {{- if ne (add $index 1) $authorsLength -}},{{- end -}}
+              </div>
             {{ end }}
           </div>
         </div>

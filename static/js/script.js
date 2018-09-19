@@ -148,6 +148,7 @@ Vue.component('links-lister', {
       styles: {
         lineContainer: {
           display: 'flex',
+          flexWrap: 'wrap',
         },
         lineItem: {
           marginRight: '12px',

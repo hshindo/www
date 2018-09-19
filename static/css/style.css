@@ -374,8 +374,8 @@ footer .footer-content {
 }
 
 #contact .line-container {
+  align-items: flex-start;
   display: flex;
-  align-items: center;
   margin-bottom: 16px;
 }
 

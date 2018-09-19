@@ -256,6 +256,10 @@ footer .footer-content {
   margin-bottom: 2px;
 }
 
+#publications .card .title .number {
+  margin-right: 0.5rem;
+}
+
 #publications .card .authors .contents-column {
   display: flex;
   flex-wrap: wrap;
@@ -352,6 +356,10 @@ footer .footer-content {
   font-size: 0.85rem;
   font-weight: bold;
   margin-bottom: 2px;
+}
+
+#awards .card .award-name .number {
+  margin-right: 0.5rem;
 }
 
 #awards .card .authors .contents-column {

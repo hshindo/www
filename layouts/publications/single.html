@@ -6,7 +6,7 @@
 
       <!-- title -->
       <div class="title">
-        {{ add $index 1 }}.
+        <span class="number">{{ add $index 1 }}.</span>
         {{ with .links.title }}<a href="{{ . }}" target="_blank">{{ end }}
         {{ .title }}
         {{ with .links.title }}</a>{{ end }}

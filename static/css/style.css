@@ -9,7 +9,8 @@
 }
 
 html {
-  font-size: 110%;
+  /* default settings of materialize.css is 15px */
+  font-size: 16.5px;
 }
 
 body {
@@ -25,8 +26,19 @@ h3 {
   font-size: 2rem;
 }
 
-.brand-logo {
+nav .brand-logo {
   white-space: nowrap;
+  font-size: 31.5px;
+}
+
+.side-nav li:first-child {
+  margin-top: 16px;
+}
+
+.side-nav li > a {
+  font-size: 1rem;
+  height: 52px;
+  line-height: 52px;
 }
 
 footer .divider {

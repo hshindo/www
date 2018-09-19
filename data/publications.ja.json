@@ -8,20 +8,12 @@
       "notes": [],
       "links": {
         "googleSlides": "https://docs.google.com/presentation/d/e/2PACX-1vROz3QXIPUnlAQIEt3vzfSmjX-c9m-17g2mfhXAwRQihIzpdQnQIFA133B06yODFPE2INWilDap5z_B/embed?start=false&loop=false&delayms=3000",
+        "youtube": "https://www.youtube.com/embed/k1D0_wFlXgo",
         "pdf": "http://www.anthology.aclweb.org/P/P15/P15-2140.pdf",
-        "bibtex": "http://www.anthology.aclweb.org/P/P15/P15-2140.bib"
-      }
-    },
-    {
-      "title": "google slides",
-      "authors": ["dummy author1"],
-      "booktitle": "dummy book title1",
-      "date": "2018",
-      "notes": [],
-      "links": {
-        "googleSlidesInline": "https://docs.google.com/presentation/d/e/2PACX-1vROz3QXIPUnlAQIEt3vzfSmjX-c9m-17g2mfhXAwRQihIzpdQnQIFA133B06yODFPE2INWilDap5z_B/embed?start=false&loop=false&delayms=3000",
-        "pdf": "http://www.anthology.aclweb.org/P/P15/P15-2140.pdf",
-        "bibtex": "http://www.anthology.aclweb.org/P/P15/P15-2140.bib"
+        "bibtex": "http://www.anthology.aclweb.org/P/P15/P15-2140.bib",
+        "slides": "/data/qb2.pdf",
+        "video": "https://www.youtube.com/k1D0_wFlXgo",
+        "github": "https://github.com/paperai/pdfanno"
       }
     },
     {

@@ -40,26 +40,14 @@
 
       <!-- links -->
       {{ with .links }}
-        {{ if or (isset . "slides") (isset . "video") (isset . "pdf") (isset . "bibtex") (isset . "googleSlides") (isset . "googleSlidesInline") }}
+        {{ if or (isset . "slides") (isset . "video") (isset . "pdf") (isset . "bibtex") (isset . "googleSlides")}}
           <div class="line-container links">
             <div class="icon-column">
               <i class="fas fa-paperclip"></i>
             </div>
             <div class="contents-column">
-              {{ range $key, $value := .}}
-                <!-- ignore `title` and `booktitle` -->
-                {{ if and (ne $key "title") (ne $key "booktitle") }}
-                  <!-- display specific vue component for google slides -->
-                  {{ if (eq $key "googleSlides") }}
-                    <my-google-slides src="{{ $value }}"></my-google-slides>
-                  {{ else if (eq $key "googleSlidesInline") }}
-                    <my-google-slides-inline src="{{ $value }}"></my-google-slides-inline>
-                  <!-- display normal link for others -->
-                  {{ else }}
-                    <div><a href="{{ $value }}" target="_blank">{{ $key }}</a></div>
-                  {{ end }}
-                {{ end }}
-              {{ end }}
+              <!-- display vue component -->
+              <links-lister :links="{{ . | jsonify }}"></links-lister>
             </div>
           </div>
         {{ end }}

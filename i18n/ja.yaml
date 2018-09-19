@@ -1,0 +1,30 @@
+# news
+
+- id: news
+  translation: ニュース
+- id: past_news
+  translation: 過去のニュース
+
+# publications
+- id: publications
+  translation: 活動
+- id: papers
+  translation: 論文誌
+- id: conferencesInternational
+  translation: 国際会議
+- id: books
+  translation: 書籍
+- id: conferencesDomestic
+  translation: 研究会・全国大会
+- id: others
+  translation: 招待講演、その他
+
+# awards
+- id: awards
+  translation: 受賞
+- id: awardsStudents
+  translation: 指導学生の受賞
+
+# contact
+- id: contact
+  translation: 問い合わせ

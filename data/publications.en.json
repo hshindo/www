@@ -1,0 +1,324 @@
+{
+  "papers": [
+    {
+      "title": "Transition-Based Dependency Parsing Exploiting Supertags",
+      "authors": [
+        "Hiroki Ouchi",
+        "Kevin Duh",
+        "<u>Hiroyuki Shindo</u>",
+        "Yuji Matsumoto"
+      ],
+      "booktitle": "IEEE Transactions on Audio, Speech and Language Processing",
+      "date": "2016",
+      "notes": [],
+      "links": { "booktitle": "http://www.ipsj.or.jp/sig/mps/TOM/" }
+    },
+    {
+      "title": "Blocked Subtree Sampler for Statistical Grammar Induction (in Japanese)",
+      "authors": ["<u>Hiroyuki Shindo</u>", "Yuji Matsumoto", "Masaaki Nagata"],
+      "booktitle": "IPSJ Transactions on Mathematical Modeling and its Applications (TOM)",
+      "date": "2014",
+      "notes": [],
+      "links": { "booktitle": "http://www.ipsj.or.jp/sig/mps/TOM/" }
+    },
+    {
+      "title": "TripleEye: Mining Closed Itemsets with Minimum Length Thresholds based on Ordered Inclusion Tree",
+      "authors": [
+        "<u>Hiroyuki Shindo</u>",
+        "Tsutomu Hirao",
+        "Jun Suzuki",
+        "Akinori Fujino",
+        "Masaaki Nagata"
+      ],
+      "booktitle": "IPSJ Transactions on Databases (TOD)",
+      "date": "2012",
+      "notes": [],
+      "links": { "booktitle": "http://ipsjtod.cse.kyoto-su.ac.jp/" }
+    },
+    {
+      "title": "Probabilistic modeling of Tree Insertion Grammars based on the Pitman-Yor process (in Japanese)",
+      "authors": ["<u>Hiroyuki Shindo</u>", "Akinori Fujino", "Masaaki Nagata"],
+      "booktitle": "IPSJ Transactions on Mathematical Modeling and its Applications (TOM)",
+      "date": "2012",
+      "notes": [],
+      "links": { "booktitle": "http://www.ipsj.or.jp/sig/mps/TOM/" }
+    },
+    {
+      "title": "Word Alignment with Synonym Information (in Japanese)",
+      "authors": ["<u>Hiroyuki Shindo</u>", "Akinori Fujino", "Masaaki Nagata"],
+      "booktitle": "IPSJ Transactions on Mathematical Modeling and its Applications (TOM)",
+      "date": "2011",
+      "notes": [],
+      "links": { "booktitle": "http://www.ipsj.or.jp/sig/mps/TOM/" }
+    },
+    {
+      "title": "Effectiveness of Automatic Expansion of Training Data for Japanese Word Sense Disambiguation (in Japanese)",
+      "authors": [
+        "Sanae Fujita",
+        "Kevin Duh",
+        "Akinori Fujino",
+        "Hirotoshi Taira",
+        "<u>Hiroyuki Shindo</u>"
+      ],
+      "booktitle": "Journal of natural language processing",
+      "date": "2011",
+      "notes": [],
+      "links": { "booktitle": "http://www.anlp.jp/" }
+    },
+    {
+      "title": "A haplotype inference method based on sparsely connected multi-body Ising model",
+      "authors": [
+        "Masashi Kato",
+        "Qian Ji Gao",
+        "Hiroshi Chigira",
+        "<u>Hiroyuki Shindo</u>",
+        "Masato Inoue"
+      ],
+      "booktitle": "Journal of Physics: Conference Series, 233, 012022",
+      "date": "2010",
+      "notes": [],
+      "links": {
+        "title": "http://iopscience.iop.org/1742-6596/233/1/012022/",
+        "booktitle": "http://iopscience.iop.org/1742-6596/"
+      }
+    },
+    {
+      "title": "Grouping preprocess for haplotype inference from SNP and CNV data",
+      "authors": [
+        "<u>Hiroyuki Shindo</u>",
+        "Hiroshi Chigira",
+        "Tomoyo Nagaoka",
+        "Naoyuki Kamatani",
+        "Masato Inoue"
+      ],
+      "booktitle": "Journal of Physics: Conference Series, 197, 012009",
+      "date": "2009",
+      "notes": [],
+      "links": {
+        "title": "http://iopscience.iop.org/1742-6596/197/1/012009/",
+        "booktitle": "http://iopscience.iop.org/1742-6596/"
+      }
+    },
+    {
+      "title": "Grouping preprocess to accurately extend application of EM algorithm to haplotype inference",
+      "authors": [
+        "<u>Hiroyuki Shindo</u>",
+        "Hiroshi Chigira",
+        "Junji Tanaka",
+        "Naoyuki Kamatani",
+        "Masato Inoue"
+      ],
+      "booktitle": "Journal of Human Genetics, 53(8), 747-756",
+      "date": "2008",
+      "notes": [],
+      "links": {
+        "title": "http://www.springerlink.com/content/qw1308876201l4g1/?p=8b1c921a6de24defbc0d8aa7c42297f3&pi=8",
+        "booktitle": "http://www.nature.com/jhg/index.html"
+      }
+    }
+  ],
+  "conferences": [
+    {
+      "title": "Joint Transition-based Dependency Parsing and Disfluency Detection for Automatic Speech Recognition Texts",
+      "authors": [
+        "Masashi Yoshikawa",
+        "<u>Hiroyuki Shindo</u>",
+        "Yuji Matsumoto"
+      ],
+      "booktitle": "In Proceedings of EMNLP",
+      "date": "2016",
+      "notes": [],
+      "links": { "booktitle": "http://www.emnlp2016.net/" }
+    },
+    {
+      "title": "Multiple Emotions Detection in Conversation Transcripts",
+      "authors": ["Duc Anh Phan", "<u>Hiroyuki Shindo</u>", "Yuji Matsumoto"],
+      "booktitle": "In Proceedings of PACLIC",
+      "date": "2016",
+      "notes": [],
+      "links": { "booktitle": "http://paclic30.khu.ac.kr/" }
+    },
+    {
+      "title": "Joint Learning of the Embedding of Words and Entities for Named Entity Disambiguation",
+      "authors": [
+        "Ikuya Yamada",
+        "<u>Hiroyuki Shindo</u>",
+        "Hideaki Takeda",
+        "Yoshiyasu Takefuji"
+      ],
+      "booktitle": "In Proceedings of CoNLL",
+      "date": "2016",
+      "notes": [],
+      "links": { "booktitle": "http://www.conll.org/" }
+    },
+    {
+      "title": "Similarity Matrix Model for the NTCIR-12 MedNLPDoc Task",
+      "authors": [
+        "Yuichiro Sawai",
+        "Mai Omura",
+        "Hiroki Ouchi",
+        "Yuki Nagai",
+        "Masashi Yoshikawa",
+        "Ikuya Yamada",
+        "<u>Hiroyuki Shindo</u>"
+      ],
+      "booktitle": "In Proceedings of NTCIR",
+      "date": "2016",
+      "notes": [],
+      "links": { "booktitle": "http://research.nii.ac.jp/ntcir/ntcir-12/" }
+    },
+    {
+      "title": "Exploiting Syntactic Similarities for Preposition Error Corrections on Indonesian Sentences Written by Second Language Learner",
+      "authors": ["Budi Irmawati", "<u>Hiroyuki Shindo</u>", "Yuji Matsumoto"],
+      "booktitle": "In Proceedings of 5th Workshop on Spoken Language Technology for Under-resourced Language (SLTU)",
+      "date": "2016",
+      "notes": [],
+      "links": { "booktitle": "http://mica.edu.vn/sltu2016/" }
+    },
+    {
+      "title": "Construction of an English Dependency Corpus incorporating Compound Function Words",
+      "authors": ["Akihiko Kato", "<u>Hiroyuki Shindo</u>", "Yuji Matsumoto"],
+      "booktitle": "In Proceedings of LREC",
+      "date": "2016",
+      "notes": [],
+      "links": { "booktitle": "http://lrec2016.lrec-conf.org/" }
+    },
+    {
+      "title": "An Improved Hierarchical Word Sequence Language Model Using Word Association",
+      "authors": [
+        "Xiaoyi Wu",
+        "Yuji Matsumoto",
+        "Kevin Duh",
+        "<u>Hiroyuki Shindo</u>"
+      ],
+      "booktitle": "In Proceedings of SLSP",
+      "date": "2015",
+      "notes": [],
+      "links": { "booktitle": "http://grammars.grlmc.com/slsp2015/" }
+    },
+    {
+      "title": "An Efficient Annotation for Phrasal Verbs using Dependency Information",
+      "authors": ["Masayuki Komai", "<u>Hiroyuki Shindo</u>", "Yuji Matsumoto"],
+      "booktitle": "In Proceedings of PACLIC",
+      "date": "2015",
+      "notes": [],
+      "links": { "booktitle": "http://bcmi.sjtu.edu.cn/~paclic29/" }
+    },
+    {
+      "title": "A Latent Variable Model for Joint Pause Prediction and Dependency Parsing",
+      "authors": [
+        "The Tung Nguyen",
+        "Graham Neubig",
+        "<u>Hiroyuki Shindo</u>",
+        "Sakriani Sakti",
+        "Tomoki Toda",
+        "Satoshi Nakamura"
+      ],
+      "booktitle": "In Proceedings of Interspeech",
+      "date": "2015",
+      "notes": [],
+      "links": { "booktitle": "http://interspeech2015.org/" }
+    },
+    {
+      "title": "Semantic Structure Analysis of Noun Phrases using Abstract Meaning Representation",
+      "authors": ["Yuichiro Sawai", "<u>Hiroyuki Shindo</u>", "Yuji Matsumoto"],
+      "booktitle": "In Proceedings of ACL",
+      "date": "2015",
+      "notes": [],
+      "links": {
+        "booktitle": "http://acl2015.org/",
+        "pdf": "http://www.anthology.aclweb.org/P/P15/P15-2140.pdf",
+        "bibtex": "http://www.anthology.aclweb.org/P/P15/P15-2140.bib"
+      }
+    },
+    {
+      "title": "Joint Case Argument Identification for Japanese Predicate Argument Structure Analysis",
+      "authors": [
+        "Hiroki Ouchi",
+        "<u>Hiroyuki Shindo</u>",
+        "Kevin Duh",
+        "Yuji Matsumoto"
+      ],
+      "booktitle": "In Proceedings of ACL",
+      "date": "2015",
+      "notes": [],
+      "links": {
+        "booktitle": "http://acl2015.org/",
+        "pdf": "http://www.anthology.aclweb.org/P/P15/P15-1093.pdf",
+        "bibtex": "http://www.anthology.aclweb.org/P/P15/P15-1093.bib"
+      }
+    },
+    {
+      "title": "Document Classification based on Distributed Document Representation",
+      "authors": ["Rumeng Li", "<u>Hiroyuki Shindo</u>"],
+      "booktitle": "In Proceedings of PAKDD",
+      "date": "2015",
+      "notes": [],
+      "links": { "booktitle": "http://www.pakdd2015.jvn.edu.vn/" }
+    },
+    {
+      "title": "A Hierarchical Tree Model for Update Summarization",
+      "authors": ["Rumeng Li", "<u>Hiroyuki Shindo</u>"],
+      "booktitle": "In Proceedings of ECIR",
+      "date": "2015",
+      "notes": [],
+      "links": { "booktitle": "http://ecir2015.ifs.tuwien.ac.at/" }
+    },
+    {
+      "title": "Statistical Parsing with Symbol-Refined Tree Substitution Grammars",
+      "authors": [
+        "<u>Hiroyuki Shindo</u>",
+        "Yusuke Miyao",
+        "Akinori Fujino",
+        "Masaaki Nagata"
+      ],
+      "booktitle": "In Proceedings of IJCAI",
+      "date": "2013",
+      "notes": [],
+      "links": { "booktitle": "http://ijcai13.org/" }
+    },
+    {
+      "title": "Bayesian Symbol-Refined Tree Substitution Grammars for Syntactic Parsing",
+      "authors": [
+        "<u>Hiroyuki Shindo</u>",
+        "Yusuke Miyao",
+        "Akinori Fujino",
+        "Masaaki Nagata"
+      ],
+      "booktitle": "In Proceedings of ACL",
+      "date": "2012",
+      "notes": [],
+      "links": {
+        "booktitle": "http://www.acl2012.org/",
+        "slides": "/data/shindo-ACL2012-talk.pdf",
+        "pdf": "http://www.aclweb.org/anthology/P/P12/P12-1046.pdf",
+        "bibtex": "http://www.aclweb.org/anthology/P/P12/P12-1046.bib"
+      }
+    },
+    {
+      "title": "Insertion Operator for Bayesian Tree Substitution Grammars",
+      "authors": ["<u>Hiroyuki Shindo</u>", "Akinori Fujino", "Masaaki Nagata"],
+      "booktitle": "In Proceedings of ACL",
+      "date": "2011",
+      "notes": [],
+      "links": {
+        "booktitle": "http://www.acl2011.org/",
+        "slides": "/data/shindo-ACL2011-talk.pdf",
+        "pdf": "http://aclweb.org/anthology/P/P11/P11-2036.pdf",
+        "bibtex": "http://aclweb.org/anthology/P/P11/P11-2036.bib"
+      }
+    },
+    {
+      "title": "Word Alignment with Synonym Regularization",
+      "authors": ["<u>Hiroyuki Shindo</u>", "Akinori Fujino", "Masaaki Nagata"],
+      "booktitle": "In Proceedings of ACL",
+      "date": "2010",
+      "notes": [],
+      "links": {
+        "booktitle": "http://acl2010.org/",
+        "pdf": "http://www.aclweb.org/anthology/P/P10/P10-2025.pdf",
+        "bibtex": "http://www.aclweb.org/anthology/P/P10/P10-2025.bib"
+      }
+    }
+  ]
+}

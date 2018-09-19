@@ -1,0 +1,407 @@
+/*
+ * commons
+ */
+
+* {
+  font-family: '游ゴシック Medium' /* win */, 'Yu Gothic Medium' /* win */,
+    '游ゴシック体' /* mac */, 'YuGothic' /* mac */, 'メイリオ' /* win7 */,
+    'sans-serif' /* default */;
+}
+
+html {
+  /* default settings of materialize.css is 15px */
+  font-size: 16.5px;
+}
+
+body {
+  background: #fafafa;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2,
+h3 {
+  font-size: 2rem;
+}
+
+nav .brand-logo {
+  white-space: nowrap;
+  font-size: 31.5px;
+}
+
+.side-nav li:first-child {
+  margin-top: 16px;
+}
+
+.side-nav li > a {
+  font-size: 1rem;
+  height: 52px;
+  line-height: 52px;
+}
+
+footer .divider {
+  max-width: 500px;
+  margin: auto;
+}
+
+footer .footer-content {
+  padding: 30px 30px;
+}
+
+/*
+ * homepage
+ */
+
+#homepage.container {
+  padding-top: 50px;
+}
+
+#homepage .profile {
+  padding: 30px 10px;
+  text-align: center;
+}
+
+#homepage img.portrait {
+  height: 200px;
+  margin: auto;
+  width: 200px;
+}
+
+#homepage .profile .portrait-title .name {
+  font-size: 1.75rem;
+}
+
+#homepage .profile .portrait-title .jobTitle {
+  font-size: 1.13rem;
+}
+
+#homepage .profile .portrait-title .worksFor {
+  font-size: 1.13rem;
+}
+
+#homepage .profile .social-icon {
+  display: inline-flex;
+}
+
+#homepage .profile .social-icon li {
+  margin-right: 1rem;
+}
+
+#homepage .profile .social-icon li:last-child {
+  margin-right: 0;
+}
+
+#homepage .ul-interests li {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 20px;
+}
+
+#homepage .ul-education p {
+  margin: 0;
+}
+
+#homepage .ul-education li {
+  margin-bottom: 0.5rem;
+}
+
+#homepage .ul-education .institution {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0.5rem;
+}
+
+/*
+ * news
+ */
+
+#news {
+  padding-top: 50px;
+}
+
+#news h1 {
+  font-size: 2rem;
+  margin: 0 0 24px;
+}
+
+#news a {
+  color: inherit;
+}
+
+#news .title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#news .summary {
+  margin-bottom: 24px;
+}
+
+#news .date {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#news .date i {
+  margin-right: 8px;
+}
+
+#news .pagination {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#news .pagination li.active {
+  color: white;
+  background: #5a76d6;
+}
+
+/*
+ * news-item (for single news page)
+ */
+
+#news-item {
+  padding-top: 50px;
+}
+
+#news-item h1 {
+  font-size: 2rem;
+  margin: 0 0 24px;
+}
+
+#news-item .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+#news-item .date {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 16px;
+}
+
+#news-item .date i {
+  margin-right: 8px;
+}
+
+#news-item .content {
+  margin-top: 16px;
+}
+
+/*
+ * publications
+ */
+
+#publications {
+  padding-top: 50px;
+}
+
+#publications h1 {
+  font-size: 2rem;
+  margin: 50px 0 24px;
+}
+
+#publications h1:first-child {
+  margin: 0 0 24px;
+}
+
+#publications a {
+  color: #5a76d6;
+}
+
+#publications a:hover {
+  text-decoration: underline solid #5a76d6;
+}
+
+#publications .line-container {
+  display: flex;
+  align-items: center;
+}
+
+#publications .line-container:last-of-type {
+  margin-bottom: 0;
+}
+
+#publications .divider {
+  margin: 0 24px;
+}
+
+#publications .line-container .icon-column {
+  align-self: flex-start;
+  flex: 0 0 auto;
+  margin-right: 16px;
+  width: 14px;
+}
+
+#publications .line-container .contents-column {
+  flex: 1 0 0;
+}
+
+#publications .card .card-content {
+  padding: 18px 24px 0;
+}
+
+#publications .card .card-content:last-of-type {
+  padding-bottom: 18px;
+}
+
+#publications .card .fas,
+#publications .card .far {
+  color: #5a76d6;
+}
+
+#publications .card .title {
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+#publications .card .title .number {
+  margin-right: 0.5rem;
+}
+
+#publications .card .authors .contents-column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#publications .card .author {
+  font-size: 0.85rem;
+  margin-right: 8px;
+}
+
+#publications .card .booktitle .contents-column,
+#publications .card .links .contents-column {
+  font-size: 0.85rem;
+}
+
+#publications .card .links .contents-column i {
+  color: gray;
+}
+
+#publications .modal {
+  max-height: 100%;
+}
+
+/*
+ * awards
+ */
+
+#awards {
+  padding-top: 50px;
+}
+
+#awards h1 {
+  font-size: 2rem;
+  margin: 50px 0 24px;
+}
+
+#awards h1:first-child {
+  margin: 0 0 24px;
+}
+
+#awards a {
+  color: #5a76d6;
+}
+
+#awards a:hover {
+  text-decoration: underline solid #5a76d6;
+}
+
+#awards .title .contents-column,
+#awards .authors .contents-column,
+#awards .booktitle .contents-column,
+#awards .links .contents-column {
+  font-size: 0.85rem;
+}
+
+#awards .line-container {
+  display: flex;
+  align-items: center;
+}
+
+#awards .line-container:last-of-type {
+  margin-bottom: 0;
+}
+
+#awards .divider {
+  margin: 0 24px;
+}
+
+#awards .line-container .icon-column {
+  align-self: flex-start;
+  flex: 0 0 auto;
+  margin-right: 16px;
+  width: 14px;
+}
+
+#awards .line-container .contents-column {
+  flex: 1 0 0;
+}
+
+#awards .card .card-content {
+  padding: 18px 24px 0;
+}
+
+#awards .card .card-content:last-of-type {
+  padding-bottom: 18px;
+}
+
+#awards .card .fas,
+#awards .card .far {
+  color: #5a76d6;
+}
+
+#awards .card .award-name {
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+#awards .card .award-name .number {
+  margin-right: 0.5rem;
+}
+
+#awards .card .authors .contents-column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#awards .card .author {
+  font-size: 0.85rem;
+  margin-right: 8px;
+}
+
+/*
+ * contact
+ */
+
+#contact h1 {
+  font-size: 2rem;
+  margin: 50px 0 24px;
+}
+
+#contact .name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+#contact .line-container {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 16px;
+}
+
+#contact .line-container .icon-column {
+  flex: 0 0 auto;
+  margin-right: 24px;
+  text-align: center;
+  width: 18px;
+}
+
+#contact .card .fas,
+#contact .card .far,
+#contact .card .fab {
+  color: #5a76d6;
+}

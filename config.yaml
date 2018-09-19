@@ -1,0 +1,40 @@
+baseURL: 'https://www.hshindo.com/'
+languageCode: 'en-us' # for RSS generation
+title: 'Hiroyuki Shindo'
+DefaultContentLanguage: ja
+languages:
+  ja:
+    languageName: 日本語
+    menu:
+      main:
+        - name: 'ニュース'
+          url: '/news/'
+          weight: 10
+        - name: '活動'
+          url: '/publications/'
+          weight: 20
+        - name: '受賞'
+          url: '/awards/'
+          weight: 30
+        - name: '問い合わせ'
+          url: '/contact/'
+          weight: 40
+    weight: 1
+  en:
+    languageName: English
+    menu:
+      main:
+        - name: 'News'
+          url: '/news/'
+          weight: 10
+        - name: 'Publications'
+          url: '/publications/'
+          weight: 20
+        - name: 'Awards'
+          url: '/awards/'
+          weight: 30
+        - name: 'Contact'
+          url: '/contact/'
+          weight: 40
+    weight: 2
+pygmentscodefences: true

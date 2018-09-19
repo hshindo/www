@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /
+
+TODO: Remove this file

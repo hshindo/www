@@ -16,7 +16,11 @@
         <div class="icon-column">
           <i class="fas fa-pen-nib"></i>
         </div>
-        <div class="contents-column">{{ .title }}</div>
+        <div class="contents-column">
+          {{ with .links.title }}<a href="{{ . }}" target="_blank">{{ end }}
+          {{ .title }}
+          {{ with .links.title }}</a>{{ end }}
+        </div>
       </div>
 
       <!-- authors -->
@@ -59,9 +63,8 @@
               <i class="fas fa-paperclip"></i>
             </div>
             <div class="contents-column">
-              {{ range $key, $value := .}}
-                <div><a href="{{ $value }}" target="_blank">{{ $key }}</a></div>
-              {{end}}
+              <!-- display vue component -->
+              <links-lister :links="{{ . | jsonify }}"></links-lister>
             </div>
           </div>
         {{ end }}

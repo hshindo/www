@@ -9,9 +9,12 @@
     <div class="card-content">
 
       <!-- title -->
-      {{ with .links.title }}<a href="{{ . }}" target="_blank">{{ end }}
-      <div class="title">{{ add $index 1 }}. {{ .title }}</div>
-      {{ with .links.title }}</a>{{ end }}
+      <div class="title">
+        {{ add $index 1 }}.
+        {{ with .links.title }}<a href="{{ . }}" target="_blank">{{ end }}
+        {{ .title }}
+        {{ with .links.title }}</a>{{ end }}
+      </div>
 
       <!-- authors -->
       <div class="line-container authors">

@@ -1,22 +1,6 @@
 {
   "papers": [
     {
-      "title": "google slides",
-      "authors": ["dummy author1"],
-      "booktitle": "dummy book title1",
-      "date": "2018",
-      "notes": [],
-      "links": {
-        "googleSlides": "https://docs.google.com/presentation/d/e/2PACX-1vROz3QXIPUnlAQIEt3vzfSmjX-c9m-17g2mfhXAwRQihIzpdQnQIFA133B06yODFPE2INWilDap5z_B/embed?start=false&loop=false&delayms=3000",
-        "youtube": "https://www.youtube.com/embed/k1D0_wFlXgo",
-        "pdf": "http://www.anthology.aclweb.org/P/P15/P15-2140.pdf",
-        "bibtex": "http://www.anthology.aclweb.org/P/P15/P15-2140.bib",
-        "slides": "/data/qb2.pdf",
-        "video": "https://www.youtube.com/k1D0_wFlXgo",
-        "github": "https://github.com/paperai/pdfanno"
-      }
-    },
-    {
       "title": "語系列の類似性・可換性の特徴表現による並列句の範囲同定",
       "authors": ["寺西 裕紀", "<u>進藤 裕之</u>", "松本 裕治"],
       "booktitle": "自然言語処理, Vol.25 No.4",

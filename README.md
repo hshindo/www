@@ -48,3 +48,16 @@ https://hshindo.github.io/www/
   ```html
   <div>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</div>
   ```
+
+## リンク
+```
+"links": {
+   "googleSlides": "https://docs.google.com/presentation/d/e/2PACX-1vROz3QXIPUnlAQIEt3vzfSmjX-c9m-17g2mfhXAwRQihIzpdQnQIFA133B06yODFPE2INWilDap5z_B/embed?start=false&loop=false&delayms=3000",
+   "youtube": "https://www.youtube.com/embed/k1D0_wFlXgo",
+   "pdf": "http://www.anthology.aclweb.org/P/P15/P15-2140.pdf",
+   "bibtex": "http://www.anthology.aclweb.org/P/P15/P15-2140.bib",
+   "slides": "/data/qb2.pdf",
+   "video": "https://www.youtube.com/k1D0_wFlXgo",
+   "github": "https://github.com/paperai/pdfanno"
+}
+```

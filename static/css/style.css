@@ -206,12 +206,11 @@ footer .footer-content {
 }
 
 #publications a {
-  color: inherit;
-  text-decoration: underline solid rgba(0, 0, 0, 0.2);
+  color: #5a76d6;
 }
 
 #publications a:hover {
-  text-decoration: underline solid rgba(0, 0, 0, 0.87);
+  text-decoration: underline solid #5a76d6;
 }
 
 #publications .line-container {
@@ -298,12 +297,11 @@ footer .footer-content {
 }
 
 #awards a {
-  color: inherit;
-  text-decoration: underline solid rgba(0, 0, 0, 0.2);
+  color: #5a76d6;
 }
 
 #awards a:hover {
-  text-decoration: underline solid rgba(0, 0, 0, 0.87);
+  text-decoration: underline solid #5a76d6;
 }
 
 #awards .title .contents-column,

@@ -84,14 +84,14 @@ Vue.component('links-lister', {
           marginRight: '12px',
         },
         caret: {
+          color: '#5a76d6',
           transition: 'transform 0.2s',
           verticalAlign: 'middle',
           cursor: 'pointer',
-          fontSize: '1.2rem',
+          fontSize: '1rem',
           transform: 'rotate(0deg)',
         },
         caretActive: {
-          color: '#5a76d6',
           transform: 'rotate(-180deg)',
         },
         responsiveIframeContainer: {
